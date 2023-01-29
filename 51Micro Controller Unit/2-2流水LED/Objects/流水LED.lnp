@@ -1,0 +1,3 @@
+".\Objects\main.obj" 
+TO ".\Objects\流水LED" 
+PRINT(".\Listings\流水LED.m51") RAMSIZE(256) 
