@@ -1,0 +1,10 @@
+".\Objects\main.obj",
+".\Objects\Delay.obj",
+".\Objects\Key.obj",
+".\Objects\AT24C02.obj",
+".\Objects\I2C.obj",
+".\Objects\Nixie.obj",
+".\Objects\Timer0.obj" 
+TO ".\Objects\project" 
+PRINT(".\Listings\project.m51") RAMSIZE(256) 
+DISABLEWARNING (16) 

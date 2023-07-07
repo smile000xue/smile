@@ -1,0 +1,158 @@
+C51 COMPILER V9.54   DS1302                                                                06/25/2023 12:18:26 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE DS1302
+OBJECT MODULE PLACED IN .\Objects\DS1302.obj
+COMPILER INVOKED BY: D:\App\Keil5\C51\BIN\C51.EXE DS1302.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\
+                    -DS1302.lst) TABS(2) OBJECT(.\Objects\DS1302.obj)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          
+   3           //引脚定义
+   4          sbit SLCK=P3^6;
+   5          sbit IO=P3^4;
+   6          sbit CE=P3^5;
+   7          
+   8          
+   9          /**
+  10            * @brief  DS1302初始化
+  11            * @param  无
+  12            * @retval 无
+  13            */
+  14          void DS1302_Init(void)
+  15          {
+  16   1        SLCK=0;
+  17   1        CE=0;
+  18   1      }
+  19          
+  20          //寄存器写入地址定义
+  21          
+  22          #define WP 0x8E
+  23          #define YEAR 0x8C
+  24          #define DAY 0x8A
+  25          #define MONTH 0x88
+  26          #define DATA 0x86
+  27          #define HOUR 0x84
+  28          #define MINUTES 0x82
+  29          #define SECONDS 0x80
+  30          
+  31          //时间数组，索引0~6分别为年、月、日、时、分、秒、星期
+  32          unsigned char time[]={23,5,9,23,12,27,56};
+  33          
+  34          /**
+  35            * @brief  DS1302写一个字节
+  36            * @param  Command 命令字/地址
+  37            * @param  Data1 要写入的数据
+  38            * @retval 无
+  39            */
+  40          void DS1302_Write(unsigned char Command,unsigned char Data1)
+  41          {
+  42   1        unsigned char i=0;
+  43   1        CE=1;
+  44   1        for(i=0;i<8;i++)
+  45   1        {
+  46   2          IO=Command&(0x01<<i);
+  47   2          SLCK=1;
+  48   2          SLCK=0;
+  49   2        }
+  50   1        for(i=0;i<8;i++)
+  51   1        {
+  52   2          IO =Data1&(0x01<<i);
+  53   2          SLCK=1;
+  54   2          SLCK=0;
+C51 COMPILER V9.54   DS1302                                                                06/25/2023 12:18:26 PAGE 2   
+
+  55   2        }
+  56   1        CE=0;
+  57   1        IO=0;
+  58   1      }
+  59          
+  60          /**
+  61            * @brief  DS1302读一个字节
+  62            * @param  Command 命令字/地址
+  63            * @retval 读出的数据
+  64            */
+  65          unsigned char DS1302_Read(unsigned char Command)
+  66          {
+  67   1        unsigned char i=0;
+  68   1        unsigned char Data2=0;
+  69   1        CE=1;
+  70   1        Command|=0x01;
+  71   1        for(i=0;i<8;i++)
+  72   1        {
+  73   2          IO=Command&(0x01<<i);
+  74   2          SLCK=0;
+  75   2          SLCK=1;
+  76   2        }
+  77   1        
+  78   1        for(i=0;i<8;i++)
+  79   1        {
+  80   2          SLCK=1;
+  81   2          SLCK=0;
+  82   2          
+  83   2          if(IO){Data2|=(0x01<<i);}
+  84   2        }
+  85   1        CE=0;
+  86   1        IO=0;
+  87   1        return Data2;
+  88   1      }
+  89          
+  90          /**
+  91            * @brief  DS1302设置时间，调用之后，time数组的数字会被设置到DS1302中
+  92            * @param  无
+  93            * @retval 无
+  94            */
+  95          void Set_time(void)
+  96          {
+  97   1        DS1302_Write(WP,0x00);
+  98   1        DS1302_Write(YEAR,time[0]/10*16+time[0]%10);
+  99   1        DS1302_Write(DAY,time[1]/10*16+time[1]%10);
+ 100   1        DS1302_Write(MONTH,time[2]/10*16+time[2]%10);
+ 101   1        DS1302_Write(DATA,time[3]/10*16+time[3]%10);
+ 102   1        DS1302_Write(HOUR,time[4]/10*16+time[4]%10);
+ 103   1        DS1302_Write(MINUTES,time[5]/10*16+time[5]%10);
+ 104   1        DS1302_Write(SECONDS,time[6]/10*16+time[6]%10);
+ 105   1        DS1302_Write(WP,0x80);
+ 106   1      }
+ 107          
+ 108          /**
+ 109            * @brief  DS1302读取时间，调用之后，DS1302中的数据会被读取到time数组中
+ 110            * @param  无
+ 111            * @retval 无
+ 112            */
+ 113          void Read_time(void)
+ 114          {
+ 115   1        unsigned char Tem=0;
+ 116   1        Tem=DS1302_Read(YEAR);
+C51 COMPILER V9.54   DS1302                                                                06/25/2023 12:18:26 PAGE 3   
+
+ 117   1        time[0]=Tem/16*10+Tem%16;
+ 118   1        Tem=DS1302_Read(DAY);
+ 119   1        time[1]=Tem/16*10+Tem%16;
+ 120   1        Tem=DS1302_Read(MONTH);
+ 121   1        time[2]=Tem/16*10+Tem%16;
+ 122   1        Tem=DS1302_Read(DATA);
+ 123   1        time[3]=Tem/16*10+Tem%16;
+ 124   1        Tem=DS1302_Read(HOUR);
+ 125   1        time[4]=Tem/16*10+Tem%16;
+ 126   1        Tem=DS1302_Read(MINUTES);
+ 127   1        time[5]=Tem/16*10+Tem%16;
+ 128   1        Tem=DS1302_Read(SECONDS);
+ 129   1        time[6]=Tem/16*10+Tem%16;
+ 130   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    493    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      7    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
