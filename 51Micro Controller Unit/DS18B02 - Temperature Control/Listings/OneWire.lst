@@ -1,0 +1,124 @@
+C51 COMPILER V9.54   ONEWIRE                                                               07/08/2023 14:36:37 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE ONEWIRE
+OBJECT MODULE PLACED IN .\Objects\OneWire.obj
+COMPILER INVOKED BY: D:\App\Keil5\C51\BIN\C51.EXE OneWire.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings
+                    -\OneWire.lst) TABS(2) OBJECT(.\Objects\OneWire.obj)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          #include <INTRINS.H>
+   3          
+   4          //引脚定义
+   5          sbit DQ=P3^7;
+   6          
+   7          /**
+   8            * @brief  单总线初始化
+   9            * @param  无
+  10            * @retval 从机响应位，0为响应，1为未响应
+  11            */
+  12          unsigned char DS18B02start(void)
+  13          {
+  14   1        unsigned char ack=0;
+  15   1        unsigned char i=0;
+  16   1        EA=0;
+  17   1        DQ=1;
+  18   1        DQ=0;
+  19   1        i = 227;while (--i);    //Delay 500us
+  20   1        DQ=1;
+  21   1        i = 29;while (--i);     //Delay 70us
+  22   1        ack=DQ;
+  23   1        i = 181;while (--i);    //Delay 400us
+  24   1        EA=1;
+  25   1        
+  26   1        return ack;
+  27   1      }
+  28          
+  29          /**
+  30            * @brief  单总线发送一位
+  31            * @param  Bit 要发送的位
+  32            * @retval 无
+  33            */
+  34          void SendBit(unsigned char Bit)
+  35          {
+  36   1        unsigned char i=0;
+  37   1        EA=0;
+  38   1        DQ=1;
+  39   1        DQ=0;
+  40   1        i= 2;while (--i);     //Delay 10us
+  41   1        DQ=Bit;
+  42   1        i= 25;while (--i);    //Delay 60us
+  43   1        DQ=1;
+  44   1        EA=1;
+  45   1      }
+  46          
+  47          /**
+  48            * @brief  单总线接收一位
+  49            * @param  无
+  50            * @retval 读取的位
+  51            */
+  52          unsigned char ReceiveBit(void)
+  53          {
+  54   1        unsigned char i=0;
+C51 COMPILER V9.54   ONEWIRE                                                               07/08/2023 14:36:37 PAGE 2   
+
+  55   1        unsigned char Bit=0;
+  56   1        EA=0;
+  57   1        DQ=1;
+  58   1        DQ=0;
+  59   1        i = 1;while (--i);     //Delay 8us
+  60   1        DQ=1;
+  61   1        _nop_();               //Delay 6us
+  62   1        Bit=DQ;
+  63   1        i = 20;while (--i);   //Delay 50us
+  64   1        
+  65   1        EA=1;
+  66   1        return Bit;
+  67   1      }
+  68          
+  69          /**
+  70            * @brief  单总线发送一个字节
+  71            * @param  Byte 要发送的字节
+  72            * @retval 无
+  73            */
+  74          void DS18B02WriteByte(unsigned char Data)
+  75          {
+  76   1        unsigned char i=0;
+  77   1        for(i=0;i<8;i++)
+  78   1        {
+  79   2          SendBit(Data&(0x01<<i));
+  80   2        }
+  81   1      }
+  82          
+  83          /**
+  84            * @brief  单总线接收一个字节
+  85            * @param  无
+  86            * @retval 接收的一个字节
+  87            */
+  88          unsigned char DS18B02ReadByte(void)
+  89          {
+  90   1        unsigned char Data=0;
+  91   1        unsigned char i=0; 
+  92   1        for(i=0;i<8;i++)
+  93   1        {
+  94   2          if(ReceiveBit())Data|=(0x01<<i);
+  95   2        }
+  96   1        return Data;  
+  97   1      }
+  98            
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    138    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

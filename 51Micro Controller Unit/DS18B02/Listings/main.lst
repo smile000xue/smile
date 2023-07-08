@@ -1,0 +1,59 @@
+C51 COMPILER V9.54   MAIN                                                                  07/08/2023 12:55:52 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: D:\App\Keil5\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\ma
+                    -in.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          #include "LCD1602.h"
+   3          #include "DS18B02.h"
+   4          #include "Delay.h"
+   5          
+   6          float temp=0;
+   7          
+   8          void main()
+   9          {
+  10   1        
+  11   1        TempConvert();
+  12   1        Delay(1000);
+  13   1        
+  14   1        LCD_Init();
+  15   1        LCD_ShowString(1,1,"Temperature:");
+  16   1        
+  17   1        while(1)
+  18   1        {
+  19   2          TempConvert();
+  20   2          temp=TempRead();
+  21   2          if(temp<0)
+  22   2          {
+  23   3            temp=-temp;
+  24   3            LCD_ShowChar(2,1,'-');
+  25   3          }
+  26   2          else
+  27   2          {
+  28   3            LCD_ShowChar(2,1,'+');
+  29   3          }
+  30   2          LCD_ShowNum(2,2,temp,3);
+  31   2          LCD_ShowChar(2,5,'.');
+  32   2          LCD_ShowNum(2,6,(unsigned long)(temp*10000)%10000,4);
+  33   2          
+  34   2        }
+  35   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    169    ----
+   CONSTANT SIZE    =     13    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
