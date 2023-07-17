@@ -1,0 +1,66 @@
+C51 COMPILER V9.54   MAIN                                                                  07/17/2023 20:35:51 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: D:\App\Keil5\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\ma
+                    -in.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          #include "Delay.h"
+   3          #include "Timer1.h"
+   4          #include "IR.h"
+   5          #include "Nixie.h"
+   6          
+   7          
+   8          unsigned char T0Count,Mode,Compare=0;
+   9          
+  10          void main()
+  11          {
+  12   1        IrInit();
+  13   1        Timer1Init();
+  14   1        
+  15   1        while(1)
+  16   1        {
+  17   2          if(IrCommand==0x16)Mode=0;
+  18   2          if(IrCommand==0x0C)Mode=1;
+  19   2          if(IrCommand==0x18)Mode=2;
+  20   2          if(IrCommand==0x5E)Mode=3;
+  21   2          
+  22   2          if(Mode==0)Compare=0;
+  23   2          if(Mode==1)Compare=50;
+  24   2          if(Mode==2)Compare=75;
+  25   2          if(Mode==3)Compare=100;
+  26   2          
+  27   2          Nixie(1,Mode);
+  28   2        }
+  29   1      }
+  30          
+  31          //定时器1中断函数
+  32          void Timer1_Routine() interrupt 3
+  33          {
+  34   1        TL1 = 0x9C;   //设置定时初值
+  35   1        TH1 = 0xFF;   //设置定时初值
+  36   1        T0Count++;
+  37   1        T0Count%=100;
+  38   1        
+  39   1        if(T0Count<Compare)P1_0=1;
+  40   1          else P1_0=0;
+  41   1      }
+  42          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    123    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      3    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

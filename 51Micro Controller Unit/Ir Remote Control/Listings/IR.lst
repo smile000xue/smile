@@ -1,0 +1,106 @@
+C51 COMPILER V9.54   IR                                                                    07/17/2023 19:45:22 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE IR
+OBJECT MODULE PLACED IN .\Objects\IR.obj
+COMPILER INVOKED BY: D:\App\Keil5\C51\BIN\C51.EXE IR.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\IR.l
+                    -st) TABS(2) OBJECT(.\Objects\IR.obj)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          #include "Interrupt.h"
+   3          #include "Timer0.h"
+   4          
+   5          unsigned char IrState,IrDataBit,IrAddress,IrCommand=0;
+   6          signed char IrRepeat=1;
+   7          unsigned char IrData[4]=0;
+   8          unsigned int IrTime=0;
+   9          
+  10          /**
+  11            * @brief  红外遥控初始化
+  12            * @param  无
+  13            * @retval 无
+  14            */
+  15          void IrInit(void)
+  16          {
+  17   1        Timer0Init();
+  18   1        Interrupt_Init();
+  19   1      }
+  20          
+  21          //外部中断0中断函数，下降沿触发执行
+  22          void Int0_Routine(void) interrupt 0
+  23          {
+  24   1        if(IrState==0)//状态0，空闲状态
+  25   1        {
+  26   2          TimeClear();//定时计数器清0
+  27   2          TimeRun(1);//定时器启动
+  28   2          IrState=1;//置状态为1
+  29   2        }
+  30   1        else if(IrState==1)//状态1，等待Start信号或Repeat信号
+  31   1        {
+  32   2          IrTime=TimeGet();//获取上一次中断到此次中断的时间
+  33   2          TimeClear();//定时计数器清0
+  34   2          if(IrTime<12442+500&&IrTime>12442-500)//如果计时为12.442ms，则接收到了Start信号
+  35   2          {
+  36   3            IrState=2;//置状态为2
+  37   3          }
+  38   2          else if(IrTime>10368-500 && IrTime<10368+500)//如果计时为10.368ms，则接收到了Repeat信号
+  39   2          {
+  40   3            IrState=0;
+  41   3      //      TimeRun(0);
+  42   3            IrRepeat++;
+  43   3          }
+  44   2          else
+  45   2          {
+  46   3            IrState=0;
+  47   3          }
+  48   2        }
+  49   1        else if(IrState==2)//状态2，解码数据
+  50   1        {
+  51   2          IrTime=TimeGet();//获取上一次中断到此次中断的时间
+  52   2          TimeClear();//定时计数器清0
+  53   2          if(IrTime<1032+500&&IrTime>1032-500)//如果计时为1032us，则接收到了数据0
+  54   2          {
+C51 COMPILER V9.54   IR                                                                    07/17/2023 19:45:22 PAGE 2   
+
+  55   3            IrData[IrDataBit/8]&=~(0x01<<(IrDataBit%8));//数据对应位清0
+  56   3            IrDataBit++;//数据位置指针自增
+  57   3          }
+  58   2          else if(IrTime<2074+500&&IrTime>2074-500)//如果计时为2074us，则接收到了数据0
+  59   2          {
+  60   3            IrData[IrDataBit/8]|=(0x01<<(IrDataBit%8));//数据对应位置1
+  61   3            IrDataBit++;//数据位置指针自增
+  62   3          }
+  63   2          else //接收出错
+  64   2          {
+  65   3            IrDataBit=0;//数据位置指针清0
+  66   3            IrState=1;//置状态为1
+  67   3          }
+  68   2          if(IrDataBit>31)//如果接收到了32位数据
+  69   2          {
+  70   3            if((IrData[0]==~IrData[1])&&(IrData[2]==~IrData[3]))//数据验证
+  71   3            {
+  72   4              IrAddress=IrData[0];
+  73   4              IrCommand=IrData[2];
+  74   4            }
+  75   3            IrDataBit=0;//数据位置指针清0
+  76   3            IrState=0;//置状态为0
+  77   3            TimeClear();//定时器停止 
+  78   3          }
+  79   2        }
+  80   1      }                                    
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    331    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     11    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,37 @@
+#include <REGX52.H>
+
+//引脚定义
+sbit Xpt2046_Din=P3^4;
+sbit Xpt2046_CS=P3^5;
+sbit Xpt2046_DCLK=P3^6;
+sbit Xpt2046_DOUT=P3^7;
+
+/**
+  * @brief  XPT2046读取AD值
+  * @param  Command 命令字，范围：头文件内定义的宏，结尾的数字表示转换的位数
+  * @retval AD转换后的数字量，范围：8位为0~255，12位为0~4095
+  */
+unsigned int Xpt2046_ReadAD(unsigned char Command)
+{
+	unsigned char i=0;
+	unsigned int Data=0;
+	Xpt2046_CS=0;		
+	Xpt2046_DCLK=0;
+	
+	for(i=0;i<8;i++)
+	{
+		Xpt2046_Din=Command&(0x80>>i);
+		Xpt2046_DCLK=1;
+		Xpt2046_DCLK=0;
+	}
+	for(i=0;i<16;i++)
+	{
+		Xpt2046_DCLK=1;
+		Xpt2046_DCLK=0;
+		if(Xpt2046_DOUT)Data|=(0x8000>>i);
+	}
+	Xpt2046_CS=1;
+	Xpt2046_DCLK=0;
+	
+	return Data>>8;
+}

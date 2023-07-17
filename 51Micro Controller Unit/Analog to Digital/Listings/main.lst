@@ -1,0 +1,45 @@
+C51 COMPILER V9.54   MAIN                                                                  07/13/2023 19:46:55 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: D:\App\Keil5\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\ma
+                    -in.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          #include "LCD1602.h"
+   3          #include "Xpt2046.h"
+   4          #include "Delay.h"
+   5          
+   6          void main()
+   7          {
+   8   1        unsigned int AdValue=0;
+   9   1        LCD_Init();
+  10   1        LCD_ShowString(1,1,"ADJ  NTC  GR");
+  11   1        while(1)
+  12   1        {
+  13   2          AdValue=Xpt2046_ReadAD(Xpt2046_XP);     //读取AIN0，可调电阻
+  14   2          LCD_ShowNum(2,1,AdValue,3);             //显示AIN0
+  15   2          AdValue=Xpt2046_ReadAD(Xpt2046_YP);     //读取AIN1，热敏电阻
+  16   2          LCD_ShowNum(2,6,AdValue,3);             //显示AIN1
+  17   2          AdValue=Xpt2046_ReadAD(Xpt2046_VBAT);   //读取AIN2，光敏电阻
+  18   2          LCD_ShowNum(2,11,AdValue,3);            //显示AIN2
+  19   2          Delay(50);
+  20   2        }
+  21   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     99    ----
+   CONSTANT SIZE    =     13    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       2
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

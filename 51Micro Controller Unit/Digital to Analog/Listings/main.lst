@@ -1,0 +1,65 @@
+C51 COMPILER V9.54   MAIN                                                                  07/13/2023 20:07:09 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: D:\App\Keil5\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\ma
+                    -in.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          #include "Delay.h"
+   3          #include "Timer0.h"
+   4          
+   5          sbit LED=P2^1;
+   6          
+   7          unsigned char T0Count,Compare,i=0;//计数值和比较值，用于输出PWM
+   8          
+   9          void main()
+  10          {
+  11   1        Timer0Init();
+  12   1        while(1)
+  13   1        {
+  14   2          for(i=0;i<100;i++)
+  15   2          {
+  16   3            Compare=i;
+  17   3            Delay(5);
+  18   3          }
+  19   2          for(i=100;i>0;i--)
+  20   2          {
+  21   3            Compare=i;
+  22   3            Delay(5);
+  23   3          }
+  24   2        }
+  25   1      }
+  26          
+  27          void Timer0_Routine() interrupt 1
+  28          {
+  29   1        TL0 = 0xA4;   //设置定时初值
+  30   1        TH0 = 0xFF;   //设置定时初值
+  31   1        T0Count++;
+  32   1        T0Count%=100;//计数值变化范围限制在0~99
+  33   1        if(T0Count<Compare)//计数值小于比较值
+  34   1          {
+  35   2            LED=1;//输出1
+  36   2          }
+  37   1        else//计数值大于比较值
+  38   1          {
+  39   2            LED=0;//输出0
+  40   2          }
+  41   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     92    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      3    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
