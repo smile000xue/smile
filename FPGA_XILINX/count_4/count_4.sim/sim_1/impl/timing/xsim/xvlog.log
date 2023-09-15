@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/count_4/count_4.sim/sim_1/impl/timing/xsim/count_4_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module count_4
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/count_4/count_4.srcs/sim_1/new/count_4_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module count_4_tb

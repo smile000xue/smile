@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Sep 15 02:53:44 2023
+# Process ID: 11816
+# Current directory: D:/Project/FPGA_XILINX/count_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21212 D:\Project\FPGA_XILINX\count_4\count_4.xpr
+# Log file: D:/Project/FPGA_XILINX/count_4/vivado.log
+# Journal file: D:/Project/FPGA_XILINX/count_4\vivado.jou
+# Running On: DESKTOP-DOLA5FQ, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 17083 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/FPGA_XILINX/count_4/count_4.xpr
+update_compile_order -fileset sources_1
+set_property part xc7s75fgga484-1 [current_project]
+set_property dataflow_viewer_settings "min_width=16"   [current_fileset]
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list rst]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {q[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {q[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {q[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {q[0]}]]
+set_property package_pin "" [get_ports [list  clk]]
+set_property package_pin "" [get_ports [list  {q[3]}]]
+place_ports clk Y6
+set_property package_pin "" [get_ports [list  rst]]
+set_property package_pin "" [get_ports [list  {q[3]}]]
+place_ports rst V7
+set_property package_pin "" [get_ports [list  {q[3]}]]
+place_ports {q[3]} U5
+place_ports {q[2]} V1
+place_ports {q[1]} V4
+place_ports {q[0]} V5
+file mkdir D:/Project/FPGA_XILINX/count_4/count_4.srcs/constrs_1/new
+close [ open D:/Project/FPGA_XILINX/count_4/count_4.srcs/constrs_1/new/count_4.xdc w ]
+add_files -fileset constrs_1 D:/Project/FPGA_XILINX/count_4/count_4.srcs/constrs_1/new/count_4.xdc
+set_property target_constrs_file D:/Project/FPGA_XILINX/count_4/count_4.srcs/constrs_1/new/count_4.xdc [current_fileset -constrset]
+save_constraints -force
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+close_design
+open_run impl_1
+file mkdir D:/Project/FPGA_XILINX/count_4/count_4.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Project/FPGA_XILINX/count_4/count_4.srcs/sim_1/new/count_4_tb.v w ]
+add_files -fileset sim_1 D:/Project/FPGA_XILINX/count_4/count_4.srcs/sim_1/new/count_4_tb.v
+update_compile_order -fileset sim_1
+launch_simulation
+source count_4.tcl
+update_compile_order -fileset sim_1
+launch_simulation
+open_run synth_1 -name synth_1
+launch_simulation
+launch_simulation -mode post-implementation -type timing
+source count_4_tb.tcl
+launch_simulation
+launch_simulation
+close_sim
+close_sim
+launch_simulation
+source count_4_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {100000ns} -objects [get_filesets sim_1]
+relaunch_sim
+close_sim
+launch_simulation
+source count_4_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
