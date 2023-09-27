@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/decoder3to8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder3to8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/decoder3to8/decoder3to8.srcs/sim_1/new/decoder3to8_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder3to8_tb

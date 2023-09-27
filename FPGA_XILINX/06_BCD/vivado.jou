@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Sep 20 22:05:06 2023
+# Process ID: 18056
+# Current directory: D:/Project/FPGA_XILINX/BCD
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19836 D:\Project\FPGA_XILINX\BCD\BCD.xpr
+# Log file: D:/Project/FPGA_XILINX/BCD/vivado.log
+# Journal file: D:/Project/FPGA_XILINX/BCD\vivado.jou
+# Running On: DESKTOP-DOLA5FQ, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 17083 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/FPGA_XILINX/BCD/BCD.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source BCD_tb.tcl
+set_property dataflow_viewer_settings "min_width=16"   [current_fileset]
+close_sim
+launch_simulation
+source BCD_tb.tcl
+close_sim
+launch_simulation

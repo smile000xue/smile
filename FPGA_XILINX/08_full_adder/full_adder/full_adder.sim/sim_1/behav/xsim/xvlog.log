@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/08_full_adder/full_adder/full_adder.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/08_full_adder/full_adder/full_adder.srcs/sources_1/new/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/08_full_adder/full_adder/full_adder.srcs/sim_1/new/full_adder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder_tb
+ERROR: [VRFC 10-4982] syntax error near '{' [D:/Project/FPGA_XILINX/08_full_adder/full_adder/full_adder.srcs/sim_1/new/full_adder_tb.v:45]
+ERROR: [VRFC 10-4982] syntax error near ';' [D:/Project/FPGA_XILINX/08_full_adder/full_adder/full_adder.srcs/sim_1/new/full_adder_tb.v:46]
+WARNING: [VRFC 10-2096] empty statement in sequential block [D:/Project/FPGA_XILINX/08_full_adder/full_adder/full_adder.srcs/sim_1/new/full_adder_tb.v:45]
+ERROR: [VRFC 10-8530] module 'full_adder_tb' is ignored due to previous errors [D:/Project/FPGA_XILINX/08_full_adder/full_adder/full_adder.srcs/sim_1/new/full_adder_tb.v:23]
