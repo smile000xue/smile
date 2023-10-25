@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/Project/FPGA_XILINX/011_multiplier/011_multiplier/011_multiplier.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/Project/FPGA_XILINX/011_multiplier/011_multiplier/011_multiplier.srcs/sim_1/new/multiplier_tb.v,1696597741,verilog,,,,multiplier_tb,,,,,,,,
+D:/Project/FPGA_XILINX/011_multiplier/011_multiplier/011_multiplier.srcs/sources_1/new/full_adder.v,1695317934,verilog,,D:/Project/FPGA_XILINX/011_multiplier/011_multiplier/011_multiplier.srcs/sources_1/new/half_adder.v,,full_adder,,,,,,,,
+D:/Project/FPGA_XILINX/011_multiplier/011_multiplier/011_multiplier.srcs/sources_1/new/half_adder.v,1695312847,verilog,,D:/Project/FPGA_XILINX/011_multiplier/011_multiplier/011_multiplier.srcs/sources_1/new/multiplier.v,,half_adder,,,,,,,,
+D:/Project/FPGA_XILINX/011_multiplier/011_multiplier/011_multiplier.srcs/sources_1/new/multiplier.v,1696597702,verilog,,D:/Project/FPGA_XILINX/011_multiplier/011_multiplier/011_multiplier.srcs/sources_1/new/sixbitadder.v,,multiplier,,,,,,,,
+D:/Project/FPGA_XILINX/011_multiplier/011_multiplier/011_multiplier.srcs/sources_1/new/sixbitadder.v,1696594659,verilog,,D:/Project/FPGA_XILINX/011_multiplier/011_multiplier/011_multiplier.srcs/sim_1/new/multiplier_tb.v,,sixbitadder,,,,,,,,

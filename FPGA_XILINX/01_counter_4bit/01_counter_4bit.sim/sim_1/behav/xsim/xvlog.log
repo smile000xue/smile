@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/01_counter_4bit/01_counter_4bit.srcs/sources_1/new/counter4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/01_counter_4bit/01_counter_4bit.srcs/sim_1/new/counter4_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter4_tb

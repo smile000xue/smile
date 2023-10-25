@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/Project/FPGA_XILINX/04_decoder2to402/04_decoder2to402.srcs/sources_1/new/decoder2to4.v,1698246798,verilog,,D:/Project/FPGA_XILINX/05_decoder3to802/05_decoder3to802.srcs/sources_1/new/decoder3to8.v,,decoder2to4,,,,,,,,
+D:/Project/FPGA_XILINX/05_decoder3to802/05_decoder3to802.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/Project/FPGA_XILINX/05_decoder3to802/05_decoder3to802.srcs/sim_1/new/decoder3to8_tb.v,1698246642,verilog,,,,decoder3to8_tb,,,,,,,,
+D:/Project/FPGA_XILINX/05_decoder3to802/05_decoder3to802.srcs/sources_1/new/decoder3to8.v,1698246261,verilog,,D:/Project/FPGA_XILINX/05_decoder3to802/05_decoder3to802.srcs/sim_1/new/decoder3to8_tb.v,,decoder3to8,,,,,,,,

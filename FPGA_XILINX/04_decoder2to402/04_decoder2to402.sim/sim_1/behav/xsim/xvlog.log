@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/04_decoder2to402/04_decoder2to402.srcs/sources_1/new/decoder2to4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2to4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/04_decoder2to402/04_decoder2to402.srcs/sim_1/new/decoder2to4_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2to4_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/04_decoder2to402/04_decoder2to402.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

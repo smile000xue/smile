@@ -1,0 +1,4 @@
+Running: xsim.dir/sevensegment_tb_behav/xsimk.exe -simmode gui -wdb sevensegment_tb_behav.wdb -simrunnum 0 -socket 52830
+Design successfully loaded
+Design Loading Memory Usage: 7744 KB (Peak: 7744 KB)
+Design Loading CPU Usage: 15 ms

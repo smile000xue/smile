@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/Project/FPGA_XILINX/012_Binary_to_BCD02/012_Binary_to_BCD02.srcs/sources_1/new/BCD1bit.v,1698254260,verilog,,D:/Project/FPGA_XILINX/012_Binary_to_BCD02/012_Binary_to_BCD02.srcs/sources_1/new/BCDfourbit.v,,BCD1bit,,,,,,,,
+D:/Project/FPGA_XILINX/012_Binary_to_BCD02/012_Binary_to_BCD02.srcs/sources_1/new/BCDfourbit.v,1698255817,verilog,,,,BCDfourbit,,,,,,,,
+D:/Project/FPGA_XILINX/013_BCDto7Segment/013_BCDto7Segment.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/Project/FPGA_XILINX/013_BCDto7Segment/013_BCDto7Segment.srcs/sim_1/new/BCDto7Segment_tb.v,1698258401,verilog,,,,BCDto7Segment_tb,,,,,,,,
+D:/Project/FPGA_XILINX/013_BCDto7Segment/013_BCDto7Segment.srcs/sources_1/new/BCDto7Segment.v,1698257822,verilog,,D:/Project/FPGA_XILINX/013_BCDto7Segment/013_BCDto7Segment.srcs/sim_1/new/BCDto7Segment_tb.v,,BCDto7Segment,,,,,,,,

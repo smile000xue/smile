@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../011_multiplier.srcs/sources_1/new/full_adder.v" \
+"../../../../011_multiplier.srcs/sources_1/new/half_adder.v" \
+"../../../../011_multiplier.srcs/sources_1/new/multiplier.v" \
+"../../../../011_multiplier.srcs/sources_1/new/sixbitadder.v" \
+"../../../../011_multiplier.srcs/sim_1/new/multiplier_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

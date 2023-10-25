@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/013_BCDto7Segment/013_BCDto7Segment.srcs/sources_1/new/BCDto7Segment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDto7Segment
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/013_BCDto7Segment/013_BCDto7Segment.srcs/sim_1/new/BCDto7Segment_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDto7Segment_tb

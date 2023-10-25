@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/Project/FPGA_XILINX/09_fourbitadder01/09_fourbitadder01.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/Project/FPGA_XILINX/09_fourbitadder01/09_fourbitadder01.srcs/sim_1/new/fourbitadder_tb.v,1697716679,verilog,,,,fourbitadder_tb,,,,,,,,
+D:/Project/FPGA_XILINX/09_fourbitadder01/09_fourbitadder01.srcs/sim_1/new/fulladder_tb.v,1697713362,verilog,,,,fulladder_tb,,,,,,,,
+D:/Project/FPGA_XILINX/09_fourbitadder01/09_fourbitadder01.srcs/sources_1/new/fourbitadder.v,1697715884,verilog,,D:/Project/FPGA_XILINX/09_fourbitadder01/09_fourbitadder01.srcs/sources_1/new/fulladder.v,,fourbitadder,,,,,,,,
+D:/Project/FPGA_XILINX/09_fourbitadder01/09_fourbitadder01.srcs/sources_1/new/fulladder.v,1697714955,verilog,,D:/Project/FPGA_XILINX/09_fourbitadder01/09_fourbitadder01.srcs/sources_1/new/halfadder.v,,fulladder,,,,,,,,
+D:/Project/FPGA_XILINX/09_fourbitadder01/09_fourbitadder01.srcs/sources_1/new/halfadder.v,1697716224,verilog,,D:/Project/FPGA_XILINX/09_fourbitadder01/09_fourbitadder01.srcs/sim_1/new/fourbitadder_tb.v,,halfadder,,,,,,,,

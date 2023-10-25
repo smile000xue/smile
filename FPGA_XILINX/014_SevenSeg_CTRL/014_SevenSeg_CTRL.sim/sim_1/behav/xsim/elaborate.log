@@ -1,0 +1,21 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/xilinx1/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sevensegment_tb_behav xil_defaultlib.sevensegment_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 8 for port 'SEG_DATA' [D:/Project/FPGA_XILINX/014_SevenSeg_CTRL/014_SevenSeg_CTRL.srcs/sim_1/new/sevensegment_tb.v:30]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 7 for port 'iSEG5' [D:/Project/FPGA_XILINX/014_SevenSeg_CTRL/014_SevenSeg_CTRL.srcs/sources_1/new/sevensegment.v:45]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 7 for port 'oS_ENS' [D:/Project/FPGA_XILINX/014_SevenSeg_CTRL/014_SevenSeg_CTRL.srcs/sources_1/new/sevensegment.v:46]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.linedecoder
+Compiling module xil_defaultlib.binary_to_bcd_2
+Compiling module xil_defaultlib.BCD_to_7segment
+Compiling module xil_defaultlib.SevenSeg_CTRL
+Compiling module xil_defaultlib.sevensegment
+Compiling module xil_defaultlib.sevensegment_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sevensegment_tb_behav

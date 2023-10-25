@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Oct 25 23:05:14 2023
+# Process ID: 17144
+# Current directory: D:/Project/FPGA_XILINX/01_counter_4bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7120 D:\Project\FPGA_XILINX\01_counter_4bit\01_counter_4bit.xpr
+# Log file: D:/Project/FPGA_XILINX/01_counter_4bit/vivado.log
+# Journal file: D:/Project/FPGA_XILINX/01_counter_4bit\vivado.jou
+# Running On: DESKTOP-DOLA5FQ, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 17083 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/FPGA_XILINX/01_counter_4bit/01_counter_4bit.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_simulation
+source counter4_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+launch_simulation
+source counter4_tb.tcl
+close_sim
+launch_simulation
+source counter4_tb.tcl
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+close_sim

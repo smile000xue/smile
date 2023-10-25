@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../014_SevenSeg_CTRL.srcs/sources_1/new/BCD_to_7segment.v" \
+"../../../../014_SevenSeg_CTRL.srcs/sources_1/new/SevenSeg_CTRL.v" \
+"../../../../014_SevenSeg_CTRL.srcs/sources_1/new/binary_to_bcd_2.v" \
+"../../../../014_SevenSeg_CTRL.srcs/sources_1/new/linedecoder.v" \
+"../../../../014_SevenSeg_CTRL.srcs/sources_1/new/sevensegment.v" \
+"../../../../014_SevenSeg_CTRL.srcs/sim_1/new/sevensegment_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

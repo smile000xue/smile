@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/Project/FPGA_XILINX/014_SevenSeg_CTRL/014_SevenSeg_CTRL.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/Project/FPGA_XILINX/014_SevenSeg_CTRL/014_SevenSeg_CTRL.srcs/sim_1/new/sevensegment_tb.v,1698258861,verilog,,,,sevensegment_tb,,,,,,,,
+D:/Project/FPGA_XILINX/014_SevenSeg_CTRL/014_SevenSeg_CTRL.srcs/sources_1/new/BCD_to_7segment.v,1698259022,verilog,,D:/Project/FPGA_XILINX/014_SevenSeg_CTRL/014_SevenSeg_CTRL.srcs/sources_1/new/SevenSeg_CTRL.v,,BCD_to_7segment,,,,,,,,
+D:/Project/FPGA_XILINX/014_SevenSeg_CTRL/014_SevenSeg_CTRL.srcs/sources_1/new/SevenSeg_CTRL.v,1698258778,verilog,,D:/Project/FPGA_XILINX/014_SevenSeg_CTRL/014_SevenSeg_CTRL.srcs/sources_1/new/binary_to_bcd_2.v,,SevenSeg_CTRL,,,,,,,,
+D:/Project/FPGA_XILINX/014_SevenSeg_CTRL/014_SevenSeg_CTRL.srcs/sources_1/new/binary_to_bcd_2.v,1698259144,verilog,,D:/Project/FPGA_XILINX/014_SevenSeg_CTRL/014_SevenSeg_CTRL.srcs/sources_1/new/linedecoder.v,,binary_to_bcd_2,,,,,,,,
+D:/Project/FPGA_XILINX/014_SevenSeg_CTRL/014_SevenSeg_CTRL.srcs/sources_1/new/linedecoder.v,1698259073,verilog,,D:/Project/FPGA_XILINX/014_SevenSeg_CTRL/014_SevenSeg_CTRL.srcs/sources_1/new/sevensegment.v,,linedecoder,,,,,,,,
+D:/Project/FPGA_XILINX/014_SevenSeg_CTRL/014_SevenSeg_CTRL.srcs/sources_1/new/sevensegment.v,1698258803,verilog,,D:/Project/FPGA_XILINX/014_SevenSeg_CTRL/014_SevenSeg_CTRL.srcs/sim_1/new/sevensegment_tb.v,,sevensegment,,,,,,,,
