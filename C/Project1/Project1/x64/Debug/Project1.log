@@ -1,0 +1,43 @@
+﻿  main.c
+D:\Project\C Programming Language\Project1\Project1\main.c(62,10): warning C4566: 由通用字符名称“\uD604”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(62,10): warning C4566: 由通用字符名称“\uC7AC”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(62,10): warning C4566: 由通用字符名称“\uC2DC”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(62,10): warning C4566: 由通用字符名称“\uAC01”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(67,10): warning C4566: 由通用字符名称“\uD504”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(67,10): warning C4566: 由通用字符名称“\uB85C”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(67,10): warning C4566: 由通用字符名称“\uADF8”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(67,10): warning C4566: 由通用字符名称“\uB7A8”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(67,10): warning C4566: 由通用字符名称“\uC885”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(67,10): warning C4566: 由通用字符名称“\uB8CC”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uBAA8”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uB4E0”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uC778”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uD130”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uB7FD”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uD2B8”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uC744”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uC0AD”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uC81C”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uD558”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uC5EC”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uD504”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uB85C”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uADF8”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uB7A8”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uC885”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uB8CC”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uD569”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uB2C8”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uB2E4”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(76,13): warning C4566: 由通用字符名称“\uD655”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(96,9): warning C4566: 由通用字符名称“\uD504”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(96,9): warning C4566: 由通用字符名称“\uB85C”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(96,9): warning C4566: 由通用字符名称“\uADF8”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(96,9): warning C4566: 由通用字符名称“\uB7A8”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(96,9): warning C4566: 由通用字符名称“\uC885”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(96,9): warning C4566: 由通用字符名称“\uB8CC”表示的字符不能在当前代码页(936)中表示出来
+D:\Project\C Programming Language\Project1\Project1\main.c(53,6): warning C4101: “process_time”: 未引用的局部变量
+D:\Project\C Programming Language\Project1\Project1\main.c(123,11): warning C4477: “printf”: 格式字符串“%10s”需要类型“char *”的参数，但可变参数 1 拥有了类型“char **”
+D:\Project\C Programming Language\Project1\Project1\main.c(124,9): warning C4133: “=”: 从“JOB_Node *”到“JOB_node *”的类型不兼容
+D:\Project\C Programming Language\Project1\Project1\main.c(110): warning C4716: “init_list”: 必须返回一个值
+  Project1.vcxproj -> D:\Project\C Programming Language\Project1\x64\Debug\Project1.exe

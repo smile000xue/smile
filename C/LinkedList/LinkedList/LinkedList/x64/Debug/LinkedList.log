@@ -1,0 +1,11 @@
+﻿  test.c
+D:\Studying\Electrical Enigneering\2023년 2학기\컴퓨터언어및실습(영강)\Project\LinkedList\LinkedList\LinkedList\test.c(29,11): warning C4133: “=”: 从“LNode *”到“LNode *”的类型不兼容
+D:\Studying\Electrical Enigneering\2023년 2학기\컴퓨터언어및실습(영강)\Project\LinkedList\LinkedList\LinkedList\test.c(50,5): warning C4133: “=”: 从“LNode *”到“LNode *”的类型不兼容
+D:\Studying\Electrical Enigneering\2023년 2학기\컴퓨터언어및실습(영강)\Project\LinkedList\LinkedList\LinkedList\test.c(54,10): warning C4133: “=”: 从“LNode *”到“LNode *”的类型不兼容
+D:\Studying\Electrical Enigneering\2023년 2학기\컴퓨터언어및실습(영강)\Project\LinkedList\LinkedList\LinkedList\test.c(68,5): warning C4133: “=”: 从“LNode *”到“LNode *”的类型不兼容
+D:\Studying\Electrical Enigneering\2023년 2학기\컴퓨터언어및실습(영강)\Project\LinkedList\LinkedList\LinkedList\test.c(71,9): warning C4133: “初始化”: 从“LNode *”到“LNode *”的类型不兼容
+D:\Studying\Electrical Enigneering\2023년 2학기\컴퓨터언어및실습(영강)\Project\LinkedList\LinkedList\LinkedList\test.c(91,5): warning C4133: “=”: 从“LNode *”到“LNode *”的类型不兼容
+D:\Studying\Electrical Enigneering\2023년 2학기\컴퓨터언어및실습(영강)\Project\LinkedList\LinkedList\LinkedList\test.c(107,5): warning C4133: “=”: 从“LNode *”到“LNode *”的类型不兼容
+D:\Studying\Electrical Enigneering\2023년 2학기\컴퓨터언어및실습(영강)\Project\LinkedList\LinkedList\LinkedList\test.c(119,5): warning C4133: “=”: 从“LNode *”到“LNode *”的类型不兼容
+D:\Studying\Electrical Enigneering\2023년 2학기\컴퓨터언어및실습(영강)\Project\LinkedList\LinkedList\LinkedList\test.c(56): warning C4715: “NodeInsert”: 不是所有的控件路径都返回值
+  LinkedList.vcxproj -> D:\Studying\Electrical Enigneering\2023년 2학기\컴퓨터언어및실습(영강)\Project\LinkedList\LinkedList\x64\Debug\LinkedList.exe
