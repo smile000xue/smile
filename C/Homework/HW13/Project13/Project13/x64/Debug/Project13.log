@@ -1,0 +1,11 @@
+﻿  main.c
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\컴퓨터언어및실습(영강)\Lab&HW\HW13\Project13\Project13\main.c(12,3): warning C4013: “printf”未定义；假设外部返回 int
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\컴퓨터언어및실습(영강)\Lab&HW\HW13\Project13\Project13\main.c(13,3): warning C4013: “scanf”未定义；假设外部返回 int
+  maintain.c
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\컴퓨터언어및실습(영강)\Lab&HW\HW13\Project13\Project13\maintain.c(16,10): warning C4047: “函数”:“char *”与“char (*)[100]”的间接级别不同
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\컴퓨터언어및실습(영강)\Lab&HW\HW13\Project13\Project13\maintain.c(16,10): warning C4024: “strcpy”: 形参和实参 1 的类型不同
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\컴퓨터언어및실습(영강)\Lab&HW\HW13\Project13\Project13\maintain.c(17,10): warning C4047: “函数”:“char *”与“char (*)[25]”的间接级别不同
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\컴퓨터언어및실습(영강)\Lab&HW\HW13\Project13\Project13\maintain.c(17,10): warning C4024: “strcpy”: 形参和实参 1 的类型不同
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\컴퓨터언어및실습(영강)\Lab&HW\HW13\Project13\Project13\maintain.c(29,3): warning C4013: “gets”未定义；假设外部返回 int
+  正在生成代码...
+  Project13.vcxproj -> C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\컴퓨터언어및실습(영강)\Lab&HW\HW13\Project13\x64\Debug\Project13.exe
