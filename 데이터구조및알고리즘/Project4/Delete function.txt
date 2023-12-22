@@ -1,0 +1,269 @@
+#include <stdio.h> 
+#include<malloc.h>
+#include<assert.h>
+
+typedef struct bstnode {
+	int key;
+	int height;
+	struct bstnode* lchild, * rchild;
+}bstnode, * bstnodeP;
+
+void BuildBst(bstnodeP* L, int a[], int length);
+bstnodeP InsertBst(bstnodeP* L, int key);
+void PrintAVL(bstnodeP L);
+bstnodeP SearchAVL(bstnodeP L, int key);
+bstnodeP DeleteNode(bstnodeP L);
+bstnodeP DeleteAVL(bstnodeP L, int num2, int* n);
+bstnodeP RRRotation(bstnodeP* L);
+bstnodeP LLRotation(bstnodeP* L);
+bstnodeP RLRotation(bstnodeP* L);
+bstnodeP LRRotation(bstnodeP* L);
+
+int main()
+{
+	int a[] = {50,25,13,9,16,30,75,60,55,80,77,90,85,95};
+
+	bstnodeP L = NULL;
+	BuildBst(&L, a, (int)sizeof(a) / sizeof(a[0]));
+	/*InsertBst(&L,90);*/
+	/*InsertBst(&L, 63);*/
+	/*InsertBst(&L, 57);*/
+
+	/*int num1 = 9;
+	bstnodeP position = SearchAVL(L, num1);
+	if (position != NULL)
+	{
+		printf("The position of %d is %p.\n", num1, position);
+	}
+	else
+	{
+		printf("No %d found!\n", num1);
+	}
+	num1 = 20;
+	position = SearchAVL(L, num1);
+	if (position != NULL)
+	{
+		printf("The position of %d is %p\n", num1, position);
+	}
+	else
+	{
+		printf("No %d found!\n", num1);
+	}
+
+	int num2 = 50;
+	int n = 0;
+	DeleteAVL(L, num2, &n);
+	if (n != -1)
+	{
+		printf("Successfully delete\n");
+	}
+	else
+	{
+		printf("Fail to delete!\n");
+	}*/
+
+	PrintAVL(L);
+
+	return 0;
+}
+
+void BuildBst(bstnodeP* L, int a[], int length)
+{
+	int i = 0;
+	while (i < length)
+	{
+		(*L)=InsertBst(L,a[i]);
+		i++;
+	}
+}
+
+bstnodeP InsertBst(bstnodeP* L, int key)
+{
+	int righth = 0;
+	int lefth = 0;
+	if ((*L) == NULL)
+	{
+		bstnodeP p = (bstnodeP)malloc(sizeof(bstnode));
+		assert(p != NULL);
+		p->lchild = NULL;
+		p->rchild = NULL;
+		p->key = key;
+		p->height=0;
+		*L = p;
+	}
+	else if (key >= (*L)->key)
+	{
+		(*L)->rchild=InsertBst(&((*L)->rchild),key);
+		righth = getheight((*L)->rchild);
+		lefth = getheight((*L)->lchild);
+		if (righth - lefth >= 2 || righth - lefth <= -2)
+		{
+			if ((*L)->rchild->key <= key)
+			{
+				*L=RRRotation(L);
+			}
+			else
+			{
+				*L = RLRotation(L);
+			}
+		}
+	}
+	else
+	{
+		(*L)->lchild=InsertBst(&((*L)->lchild), key);
+		righth = getheight((*L)->rchild);
+		lefth = getheight((*L)->lchild);
+		if (righth - lefth >= 2 || righth - lefth <= -2)
+		{
+			if ((*L)->lchild->key > key)
+			{
+				*L = LLRotation(L);
+			}
+			else
+			{
+				*L = LRRotation(L);
+			}
+		}
+	}
+	righth = getheight((*L)->rchild);
+	lefth = getheight((*L)->lchild);
+	(*L)->height = (righth > lefth ? righth : lefth) + 1;
+	return *L;
+}
+
+bstnodeP RRRotation(bstnodeP* L)
+{
+	bstnodeP p = (*L)->rchild;
+	(*L)->rchild = p->lchild;
+	p->lchild = *L;
+	int righth = getheight((*L)->rchild);
+	int lefth = getheight((*L)->lchild);
+	(*L)->height = (righth > lefth ? righth : lefth) + 1;
+
+	return p;
+	
+}
+
+bstnodeP LLRotation(bstnodeP* L)
+{
+	bstnodeP p = (*L)->lchild;
+	(*L)->lchild = p->rchild;
+	p->rchild = *L;
+	int righth = getheight((*L)->rchild);
+	int lefth = getheight((*L)->lchild);
+	(*L)->height = (righth > lefth ? righth : lefth) + 1;
+	return p;
+}
+
+bstnodeP RLRotation(bstnodeP* L)
+{
+	bstnodeP p;
+	(*L)->rchild =LLRotation(&(*L)->rchild);
+	p = RRRotation(L);
+	return p;
+}
+
+bstnodeP LRRotation(bstnodeP* L)
+{
+	bstnodeP p;
+	(*L)->lchild = RRRotation(&(*L)->lchild);
+	p = LLRotation(L);
+	return p;
+}
+
+int getheight(bstnodeP L)
+{
+	if (L == NULL)
+	{
+		return -1;
+	}
+	else
+	{
+		return L->height;
+	}
+	}
+
+void PrintAVL(bstnodeP L)
+{
+	if (L != NULL)
+	{
+		printf("%d  ", L->key);
+		if (L->lchild != NULL)
+		{
+			PrintAVL(L->lchild);
+		}
+		if (L->rchild != NULL)
+		{
+			PrintAVL(L->rchild);
+		}
+	}
+}
+
+bstnodeP SearchAVL(bstnodeP L, int key)
+{
+	if (L != NULL && L->key != key)
+	{
+		if (L->key <= key) return SearchAVL(L->rchild, key);
+		else return SearchAVL(L->lchild, key);
+	}
+	else
+	{
+		return L;
+	}
+}
+
+bstnodeP DeleteNode(bstnodeP L)
+{
+	if (L->lchild == NULL && L->rchild == NULL)
+	{
+		free(L);
+		return NULL;
+	}
+	else if (L->lchild == NULL && L->rchild != NULL)
+	{
+		bstnodeP p = L->rchild;
+		free(L);
+		return p;
+	}
+	else
+	{
+		bstnodeP p = L->lchild;
+		free(L);
+		return p;
+	}
+}
+bstnodeP DeleteAVL(bstnodeP L, int num2,int *n)
+{
+	if (L == NULL)
+	{
+		*n = -1;
+		return NULL;
+	}
+	else if (L->key == num2)
+	{
+		if (L->lchild == NULL || L->rchild == NULL)
+		{
+			L= DeleteNode(L);
+		}
+		else
+		{
+			bstnodeP p = L->rchild;
+			while (p->lchild!= NULL)
+			{
+				p = p->lchild;
+			}
+			L->key = p->key;
+			L = DeleteNode(p);
+		}
+	}
+	else if (num2 < L->key)
+	{
+		L->lchild=DeleteAVL(L->lchild, num2,n);
+		return L;
+	}
+	else
+	{
+		L->rchild=DeleteAVL(L->rchild, num2,n);
+		return L;
+	}
+}

@@ -1,0 +1,4 @@
+﻿  main.c
+D:\Electrical Enigneering\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\HashTable\HashTable\main.c(60,30): warning C4133: “=”: 从“hashpointer”到“hash *”的类型不兼容
+D:\Electrical Enigneering\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\HashTable\HashTable\main.c(75,14): warning C4133: “=”: 从“hash *”到“hashpointer”的类型不兼容
+  HashTable.vcxproj -> D:\Electrical Enigneering\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\HashTable\x64\Debug\HashTable.exe

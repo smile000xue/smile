@@ -1,0 +1,18 @@
+﻿  main.c
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(6,23): warning C4091: “typedef ”: 没有声明变量时忽略“arcnode”的左侧
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(7,21): warning C4091: “typedef ”: 没有声明变量时忽略“vnode”的左侧
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(8,22): warning C4091: “typedef ”: 没有声明变量时忽略“vertex”的左侧
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(9,23): error C2146: 语法错误: 缺少“)”(在标识符“g2”的前面)
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(9,23): error C2061: 语法错误: 标识符“g2”
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(9,23): error C2059: 语法错误:“;”
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(9,25): error C2059: 语法错误:“)”
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(10,25): error C2146: 语法错误: 缺少“)”(在标识符“g2”的前面)
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(10,25): error C2061: 语法错误: 标识符“g2”
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(10,25): error C2059: 语法错误:“;”
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(10,27): error C2059: 语法错误:“)”
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(17,8): error C2065: “Graph”: 未声明的标识符
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(17,8): error C2146: 语法错误: 缺少“;”(在标识符“g2”的前面)
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(17,10): error C2065: “g2”: 未声明的标识符
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(18,2): warning C4013: “InitGraph”未定义；假设外部返回 int
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(18,15): error C2065: “g2”: 未声明的标识符
+C:\Users\smile\我的云端硬盘\Electrical Engineering\2023년 2학기\데이터구조및알고리즘\과제\Graphs\Graphs\Graphs\main.c(61,6): error C2371: “InitGraph”: 重定义；不同的基类型
