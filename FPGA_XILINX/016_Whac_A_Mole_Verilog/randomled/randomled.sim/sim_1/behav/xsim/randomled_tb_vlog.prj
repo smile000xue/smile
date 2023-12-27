@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../randomled.srcs/sources_1/new/LedRandom.v" \
+"../../../../randomled.srcs/sources_1/new/randomled.v" \
+"../../../../randomled.srcs/sim_1/new/randomled_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

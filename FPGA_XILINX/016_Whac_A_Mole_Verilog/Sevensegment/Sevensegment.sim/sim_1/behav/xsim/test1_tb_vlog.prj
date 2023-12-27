@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../project/project.srcs/sources_1/new/BCD_to_7segment.v" \
+"../../../../../project/project.srcs/sources_1/new/SevenSeg_CTRL.v" \
+"../../../../Sevensegment.srcs/sources_1/new/binary_bcd.v" \
+"../../../../../project/project.srcs/sources_1/new/sevensegment.v" \
+"../../../../Sevensegment.srcs/sim_1/new/test1_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
