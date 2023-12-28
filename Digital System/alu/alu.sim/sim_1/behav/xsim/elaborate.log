@@ -1,0 +1,23 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot alu_tb_behav xil_defaultlib.alu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/PC/Desktop/Project/alu/alu.srcs/sources_1/new/alu.v" Line 1. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/PC/Desktop/Project/Binary _to_7Seg/Binary _to_7Seg.srcs/sources_1/new/binary_to_BCD_converter2.v" Line 1. Module binary_to_BCD_converter2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/PC/Desktop/Project/Binary _to_7Seg/Binary _to_7Seg.srcs/sources_1/new/segment_contoller.v" Line 1. Module segment_controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/PC/Desktop/Project/alu/alu.srcs/sources_1/new/alu.v" Line 1. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/PC/Desktop/Project/Binary _to_7Seg/Binary _to_7Seg.srcs/sources_1/new/binary_to_BCD_converter2.v" Line 1. Module binary_to_BCD_converter2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/PC/Desktop/Project/Binary _to_7Seg/Binary _to_7Seg.srcs/sources_1/new/segment_contoller.v" Line 1. Module segment_controller doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.binary_to_BCD_converter2
+Compiling module xil_defaultlib.segment_controller
+Compiling module xil_defaultlib.Binary_to_7Seg
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.alu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot alu_tb_behav

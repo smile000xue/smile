@@ -1,0 +1,306 @@
+Time resolution is 1 ps
+ 0 x
+ 0 X
+ 0 X
+ 0 X
+ 0 0
+ 1 0
+ 2 0
+ 3 0
+ 4 0
+ 5 0
+ 6 0
+ 7 0
+ 8 0
+ 9 0
+10 0
+10 4
+1012
+1112
+1212
+1312
+1412
+1512
+ 012
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[0]/TChk166_86 at time 162991 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+ 013
+ 012
+ 0 8
+ 0 0
+ 0 2
+ 0 0
+ 0 8
+ 1 8
+ 1 0
+ 1 1
+ 2 1
+ 2 0
+ 2 2
+ 3 2
+ 3 3
+ 4 3
+ 4 2
+ 4 0
+ 5 0
+ 5 8
+ 512
+ 5 4
+ 6 4
+ 6 0
+ 6 8
+ 6 9
+ 611
+ 6 9
+ 7 9
+ 7 8
+ 710
+ 810
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[3]/TChk166_86 at time 243842 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[1]/TChk166_86 at time 243847 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+ 8 8
+ 810
+ 811
+ 911
+ 9 3
+ 9 7
+ 915
+ 911
+ 910
+ 9 8
+10 8
+1012
+1112
+1212
+1312
+1412
+1512
+ 012
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[0]/TChk166_86 at time 322991 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+ 013
+ 012
+ 0 8
+ 0 0
+ 0 2
+ 0 0
+ 0 8
+ 1 8
+ 1 0
+ 1 1
+ 2 1
+ 2 0
+ 2 2
+ 3 2
+ 3 3
+ 4 3
+ 4 2
+ 4 0
+ 5 0
+ 5 8
+ 512
+ 5 4
+ 6 4
+ 6 0
+ 6 8
+ 6 9
+ 611
+ 6 9
+ 7 9
+ 7 8
+ 710
+ 810
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[3]/TChk166_86 at time 403842 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[1]/TChk166_86 at time 403847 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+ 8 8
+ 810
+ 811
+ 911
+ 9 3
+ 9 7
+ 915
+ 911
+ 910
+ 9 8
+10 8
+1012
+1112
+1212
+1312
+1412
+1512
+ 012
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[0]/TChk166_86 at time 482991 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+ 013
+ 012
+ 0 8
+ 0 0
+ 0 2
+ 0 0
+ 0 8
+ 1 8
+ 1 0
+ 1 1
+ 2 1
+ 2 0
+ 2 2
+ 3 2
+ 3 3
+ 4 3
+ 4 2
+ 4 0
+ 5 0
+ 5 8
+ 512
+ 5 4
+ 6 4
+ 6 0
+ 6 8
+ 6 9
+ 611
+ 6 9
+ 7 9
+ 7 8
+ 710
+ 810
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[3]/TChk166_86 at time 563842 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[1]/TChk166_86 at time 563847 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+ 8 8
+ 810
+ 811
+ 911
+ 9 3
+ 9 7
+ 915
+ 911
+ 910
+ 9 8
+10 8
+1012
+1112
+1212
+1312
+1412
+1512
+ 012
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[0]/TChk166_86 at time 642991 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+ 013
+ 012
+ 0 8
+ 0 0
+ 0 2
+ 0 0
+ 0 8
+ 1 8
+ 1 0
+ 1 1
+ 2 1
+ 2 0
+ 2 2
+ 3 2
+ 3 3
+ 4 3
+ 4 2
+ 4 0
+ 5 0
+ 5 8
+ 512
+ 5 4
+ 6 4
+ 6 0
+ 6 8
+ 6 9
+ 611
+ 6 9
+ 7 9
+ 7 8
+ 710
+ 810
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[3]/TChk166_86 at time 723842 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[1]/TChk166_86 at time 723847 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+ 8 8
+ 810
+ 811
+ 911
+ 9 3
+ 9 7
+ 915
+ 911
+ 910
+ 9 8
+10 8
+1012
+1112
+1212
+1312
+1412
+1512
+ 012
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[0]/TChk166_86 at time 802991 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+ 013
+ 012
+ 0 8
+ 0 0
+ 0 2
+ 0 0
+ 0 8
+ 1 8
+ 1 0
+ 1 1
+ 2 1
+ 2 0
+ 2 2
+ 3 2
+ 3 3
+ 4 3
+ 4 2
+ 4 0
+ 5 0
+ 5 8
+ 512
+ 5 4
+ 6 4
+ 6 0
+ 6 8
+ 6 9
+ 611
+ 6 9
+ 7 9
+ 7 8
+ 710
+ 810
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[3]/TChk166_86 at time 883842 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[1]/TChk166_86 at time 883847 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+ 8 8
+ 810
+ 811
+ 911
+ 9 3
+ 9 7
+ 915
+ 911
+ 910
+ 9 8
+10 8
+1012
+1112
+1212
+1312
+1412
+1512
+ 012
+WARNING: "D:/Vivado/2022.2/data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /BCD_tb/BCD_tb/out_reg[0]/TChk166_86 at time 962991 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+ 013
+ 012
+ 0 8
+ 0 0
+ 0 2
+ 0 0
+ 0 8
+ 1 8
+ 1 0
+ 1 1
+ 2 1
+ 2 0
+ 2 2
+ 3 2
+ 3 3
+ 4 3

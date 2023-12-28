@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/PC/Desktop/Project/adderfour/adderfour.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/PC/Desktop/Project/adderfour/adderfour.srcs/sim_1/new/fouradder_tb.v,1697703373,verilog,,,,fouradder_tb,,,,,,,,
+C:/Users/PC/Desktop/Project/adderfour/adderfour.srcs/sources_1/new/fouradder.v,1697703423,verilog,,C:/Users/PC/Desktop/Project/adderfour/adderfour.srcs/sources_1/new/fulladder.v,,fouradder,,,,,,,,
+C:/Users/PC/Desktop/Project/adderfour/adderfour.srcs/sources_1/new/fulladder.v,1697702851,verilog,,C:/Users/PC/Desktop/Project/adderfour/adderfour.srcs/sources_1/new/halfadder.v,,fulladder,,,,,,,,
+C:/Users/PC/Desktop/Project/adderfour/adderfour.srcs/sources_1/new/halfadder.v,1697702860,verilog,,C:/Users/PC/Desktop/Project/adderfour/adderfour.srcs/sim_1/new/fouradder_tb.v,,halfadder,,,,,,,,

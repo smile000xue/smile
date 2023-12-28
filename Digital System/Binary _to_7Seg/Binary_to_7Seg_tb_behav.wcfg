@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Binary_to_7Seg_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Binary_to_7Seg_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="259.189 ns"></ZoomStartTime>
+      <ZoomEndTime time="417.692 ns"></ZoomEndTime>
+      <Cursor1Time time="159.196 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="132"></NameColumnWidth>
+      <ValueColumnWidth column_width="62"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/Binary_to_7Seg_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Binary_to_7Seg_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Binary_to_7Seg_tb/binary" type="array">
+      <obj_property name="ElementShortName">binary[3:0]</obj_property>
+      <obj_property name="ObjectShortName">binary[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Binary_to_7Seg_tb/seg_COM" type="array">
+      <obj_property name="ElementShortName">seg_COM[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_COM[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Binary_to_7Seg_tb/seg_DATA" type="array">
+      <obj_property name="ElementShortName">seg_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_DATA[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Binary_to_7Seg_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>

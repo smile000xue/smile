@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/PC/Desktop/Project/linedecoder/linedecoder.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/PC/Desktop/Project/linedecoder/linedecoder.srcs/sim_1/new/binary_to_bcd_tb.v,1697091967,verilog,,,,binary_to_bcd_tb,,,,,,,,
+C:/Users/PC/Desktop/Project/linedecoder/linedecoder.srcs/sources_1/new/binary_to_bcd.v,1697091305,verilog,,C:/Users/PC/Desktop/Project/linedecoder/linedecoder.srcs/sources_1/new/linedecoder.v,,binary_to_bcd,,,,,,,,
+C:/Users/PC/Desktop/Project/linedecoder/linedecoder.srcs/sources_1/new/linedecoder.v,1697091265,verilog,,C:/Users/PC/Desktop/Project/linedecoder/linedecoder.srcs/sim_1/new/binary_to_bcd_tb.v,,linedecoder,,,,,,,,

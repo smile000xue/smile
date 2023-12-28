@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC/Desktop/decoder2to4/decoder2to4.sim/sim_1/impl/timing/xsim/decoder2to4_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2to4
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC/Desktop/decoder2to4/decoder2to4.srcs/sim_1/new/decoder2to4_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder2to4_tb

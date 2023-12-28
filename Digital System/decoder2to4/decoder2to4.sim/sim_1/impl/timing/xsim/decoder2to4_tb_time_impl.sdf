@@ -1,0 +1,134 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "decoder2to4")
+(DATE "Thu Sep 21 15:46:40 2023")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2022.2")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE a_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1451.6:1522.6:1522.6) (1451.6:1522.6:1522.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE b_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1440.8:1511.7:1511.7) (1440.8:1511.7:1511.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE w_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3348.9:3551.4:3551.4) (3348.9:3551.4:3551.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE w_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+      (IOPATH I0 O (95.0:118.0:118.0) (95.0:118.0:118.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE x_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3360.0:3562.6:3562.6) (3360.0:3562.6:3562.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE x_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE y_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3379.8:3582.5:3582.5) (3379.8:3582.5:3582.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE y_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE z_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3384.9:3587.7:3587.7) (3384.9:3587.7:3587.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE z_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+      (IOPATH I0 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "decoder2to4")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT a_IBUF_inst/O w_OBUF_inst_i_1/I0 (1393.6:1637.6:1637.6) (1393.6:1637.6:1637.6))
+      (INTERCONNECT a_IBUF_inst/O y_OBUF_inst_i_1/I0 (1530.6:1807.6:1807.6) (1530.6:1807.6:1807.6))
+      (INTERCONNECT a_IBUF_inst/O z_OBUF_inst_i_1/I0 (1530.6:1807.6:1807.6) (1530.6:1807.6:1807.6))
+      (INTERCONNECT a_IBUF_inst/O x_OBUF_inst_i_1/I1 (1393.6:1637.6:1637.6) (1393.6:1637.6:1637.6))
+      (INTERCONNECT b_IBUF_inst/O x_OBUF_inst_i_1/I0 (1699.9:2011.9:2011.9) (1699.9:2011.9:2011.9))
+      (INTERCONNECT b_IBUF_inst/O w_OBUF_inst_i_1/I1 (1699.9:2011.9:2011.9) (1699.9:2011.9:2011.9))
+      (INTERCONNECT b_IBUF_inst/O y_OBUF_inst_i_1/I1 (1702.9:2016.9:2016.9) (1702.9:2016.9:2016.9))
+      (INTERCONNECT b_IBUF_inst/O z_OBUF_inst_i_1/I1 (1702.9:2016.9:2016.9) (1702.9:2016.9:2016.9))
+      (INTERCONNECT w_OBUF_inst_i_1/O w_OBUF_inst/I (1723.1:2010.1:2010.1) (1723.1:2010.1:2010.1))
+      (INTERCONNECT x_OBUF_inst_i_1/O x_OBUF_inst/I (1564.0:1813.0:1813.0) (1564.0:1813.0:1813.0))
+      (INTERCONNECT y_OBUF_inst_i_1/O y_OBUF_inst/I (1607.2:1866.2:1866.2) (1607.2:1866.2:1866.2))
+      (INTERCONNECT z_OBUF_inst_i_1/O z_OBUF_inst/I (1770.5:2066.5:2066.5) (1770.5:2066.5:2066.5))
+      )
+    )
+)
+)

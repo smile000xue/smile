@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Oct 12 17:35:00 2023
+# Process ID: 2848
+# Current directory: C:/Users/PC/Desktop/Project/SevenSeg_CTRL/SevenSeg_CTRL.runs/synth_1
+# Command line: vivado.exe -log sevensegment.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sevensegment.tcl
+# Log file: C:/Users/PC/Desktop/Project/SevenSeg_CTRL/SevenSeg_CTRL.runs/synth_1/sevensegment.vds
+# Journal file: C:/Users/PC/Desktop/Project/SevenSeg_CTRL/SevenSeg_CTRL.runs/synth_1\vivado.jou
+# Running On: DESKTOP-GDBJFI1, OS: Windows, CPU Frequency: 3408 MHz, CPU Physical cores: 4, Host memory: 34309 MB
+#-----------------------------------------------------------
+source sevensegment.tcl -notrace

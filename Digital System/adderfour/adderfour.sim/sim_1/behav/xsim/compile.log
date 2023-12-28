@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC/Desktop/Project/adderfour/adderfour.srcs/sources_1/new/fouradder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fouradder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC/Desktop/Project/adderfour/adderfour.srcs/sources_1/new/fulladder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fulladder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC/Desktop/Project/adderfour/adderfour.srcs/sources_1/new/halfadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module halfadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC/Desktop/Project/adderfour/adderfour.srcs/sim_1/new/fouradder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fouradder_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PC/Desktop/Project/adderfour/adderfour.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

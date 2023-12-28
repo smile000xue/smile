@@ -1,0 +1,7 @@
+Running: xsim.dir/fouradder_tb_behav/xsimk.exe -simmode gui -wdb fouradder_tb_behav.wdb -simrunnum 0 -socket 53601
+Design successfully loaded
+Design Loading Memory Usage: 7724 KB (Peak: 7724 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 8284 KB (Peak: 8284 KB)
+Simulation CPU Usage: 15 ms

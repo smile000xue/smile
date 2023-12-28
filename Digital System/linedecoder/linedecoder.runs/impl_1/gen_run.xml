@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7s75fgga484-1" LaunchTime="1697092138">
+  <File Type="ROUTE-PWR" Name="binary_to_bcd_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="binary_to_bcd.tcl"/>
+  <File Type="BITSTR-MMI" Name="binary_to_bcd.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="binary_to_bcd_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="binary_to_bcd_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="binary_to_bcd_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="binary_to_bcd_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="binary_to_bcd_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="binary_to_bcd_opt.dcp"/>
+  <File Type="OPT-DRC" Name="binary_to_bcd_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="binary_to_bcd.hwdef"/>
+  <File Type="PWROPT-DCP" Name="binary_to_bcd_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="binary_to_bcd_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="binary_to_bcd_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="binary_to_bcd_placed.dcp"/>
+  <File Type="PLACE-IO" Name="binary_to_bcd_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="binary_to_bcd_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="binary_to_bcd_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="binary_to_bcd_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="binary_to_bcd_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="binary_to_bcd_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="binary_to_bcd_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="binary_to_bcd.bin"/>
+  <File Type="PLACE-TIMING" Name="binary_to_bcd_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="binary_to_bcd_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="binary_to_bcd.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="binary_to_bcd_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="binary_to_bcd_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="binary_to_bcd_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="binary_to_bcd.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="binary_to_bcd_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="binary_to_bcd_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="binary_to_bcd_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="binary_to_bcd_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="binary_to_bcd_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="binary_to_bcd_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="binary_to_bcd_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="binary_to_bcd_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="binary_to_bcd_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="binary_to_bcd_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="binary_to_bcd_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="binary_to_bcd_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="binary_to_bcd_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="binary_to_bcd_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="binary_to_bcd_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="binary_to_bcd_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="binary_to_bcd_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="binary_to_bcd_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="binary_to_bcd_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="binary_to_bcd_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="binary_to_bcd_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="binary_to_bcd_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="binary_to_bcd_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="binary_to_bcd_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="binary_to_bcd_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="binary_to_bcd_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="binary_to_bcd_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="binary_to_bcd.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="binary_to_bcd_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="binary_to_bcd_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="binary_to_bcd.nky"/>
+  <File Type="BITSTR-BMM" Name="binary_to_bcd_bd.bmm"/>
+  <File Type="PDI-FILE" Name="binary_to_bcd.pdi"/>
+  <File Type="RCFI_FILE" Name="binary_to_bcd.rcfi"/>
+  <File Type="CFI_FILE" Name="binary_to_bcd.cfi"/>
+  <File Type="RNPI_FILE" Name="binary_to_bcd.rnpi"/>
+  <File Type="NPI_FILE" Name="binary_to_bcd.npi"/>
+  <File Type="RBD_FILE" Name="binary_to_bcd.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="binary_to_bcd.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="binary_to_bcd.sysdef"/>
+  <File Type="BG-BGN" Name="binary_to_bcd.bgn"/>
+  <File Type="BG-DRC" Name="binary_to_bcd.drc"/>
+  <File Type="RDI-RDI" Name="binary_to_bcd.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="binary_to_bcd_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="binary_to_bcd_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/linedecoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/binary_to_bcd.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="binary_to_bcd"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/linedecoder.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/linedecoder.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
