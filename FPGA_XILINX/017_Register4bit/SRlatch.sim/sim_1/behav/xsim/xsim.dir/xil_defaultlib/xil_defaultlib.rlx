@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sim_1/new/Register4bit_tb.v,1698907663,verilog,,,,Register4bit_tb,,,,,,,,
+D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Dflipflop.v,1698943297,verilog,,D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Register4bit.v,,Dflipflop,,,,,,,,
+D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Register4bit.v,1698907345,verilog,,D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/SRlatch.v,,Register4bit,,,,,,,,
+D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/SRlatch.v,1698907326,verilog,,D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sim_1/new/Register4bit_tb.v,,SRlatch,,,,,,,,

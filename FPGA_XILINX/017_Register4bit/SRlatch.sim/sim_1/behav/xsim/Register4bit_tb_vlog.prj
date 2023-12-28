@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SRlatch.srcs/sources_1/new/Dflipflop.v" \
+"../../../../SRlatch.srcs/sources_1/new/Register4bit.v" \
+"../../../../SRlatch.srcs/sources_1/new/SRlatch.v" \
+"../../../../SRlatch.srcs/sim_1/new/Register4bit_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

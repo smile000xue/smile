@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Nov  3 13:38:01 2023
+# Process ID: 16336
+# Current directory: D:/Project/FPGA_XILINX/017_Register4bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21056 D:\Project\FPGA_XILINX\017_Register4bit\SRlatch.xpr
+# Log file: D:/Project/FPGA_XILINX/017_Register4bit/vivado.log
+# Journal file: D:/Project/FPGA_XILINX/017_Register4bit\vivado.jou
+# Running On: DESKTOP-DOLA5FQ, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 17083 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source Register4bit_tb.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+refresh_design
+place_ports D0 G22
+place_ports D2 D22
+startgroup
+set_property package_pin "" [get_ports [list  D2]]
+place_ports D1 D22
+endgroup
+set_property package_pin "" [get_ports [list  D3]]
+place_ports D2 E22
+place_ports D3 G21
+set_property package_pin "" [get_ports [list  Q1]]
+place_ports clk Y6
+place_ports Q0 M22
+place_ports Q1 N22
+place_ports Q2 K21
+startgroup
+set_property package_pin "" [get_ports [list  Q2]]
+place_ports Q3 K21
+endgroup
+place_ports Q2 L21
+save_constraints
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+add_files -norecurse {D:/Project/FPGA_XILINX/018_ShiftRegister4bit/018_ShiftRegister4bit.srcs/sources_1/new/SR_Latch.v D:/Project/FPGA_XILINX/018_ShiftRegister4bit/018_ShiftRegister4bit.srcs/sources_1/new/D_FlipFlop.v}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/SRlatch.v] -no_script -reset -force -quiet
+remove_files  D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/SRlatch.v
+export_ip_user_files -of_objects  [get_files D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Dflipflop.v] -no_script -reset -force -quiet
+remove_files  D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Dflipflop.v
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+close_sim

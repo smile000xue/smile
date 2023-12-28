@@ -1,0 +1,324 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Nov  3 13:38:01 2023
+# Process ID: 16336
+# Current directory: D:/Project/FPGA_XILINX/017_Register4bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21056 D:\Project\FPGA_XILINX\017_Register4bit\SRlatch.xpr
+# Log file: D:/Project/FPGA_XILINX/017_Register4bit/vivado.log
+# Journal file: D:/Project/FPGA_XILINX/017_Register4bit\vivado.jou
+# Running On: DESKTOP-DOLA5FQ, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 17083 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.gen/sources_1'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/App/xilinx1/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/App/xilinx1/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 1152.469 ; gain = 329.898
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tfgg484-2
+Top: Register4bit
+INFO: [Device 21-403] Loading part xc7a35tfgg484-2
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/App/xilinx1/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1893.918 ; gain = 405.875
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Register4bit' [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Register4bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Dflipflop' [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Dflipflop.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SRlatch' [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/SRlatch.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SRlatch' (0#1) [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/SRlatch.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Dflipflop' (0#1) [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Dflipflop.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Register4bit' (0#1) [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Register4bit.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1983.766 ; gain = 495.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1983.766 ; gain = 495.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1983.766 ; gain = 495.723
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1983.766 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V1' is not a valid site or package pin name. [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc:11]
+CRITICAL WARNING: [Common 17-69] Command failed: 'AB4' is not a valid site or package pin name. [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc:15]
+CRITICAL WARNING: [Common 17-69] Command failed: 'Y5' is not a valid site or package pin name. [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc:17]
+Finished Parsing XDC File [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2009.012 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 2087.297 ; gain = 599.254
+10 Infos, 0 Warnings, 3 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 2087.297 ; gain = 930.453
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Register4bit_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/App/xilinx1/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Register4bit_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Register4bit_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Dflipflop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dflipflop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Register4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/SRlatch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SRlatch
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sim_1/new/Register4bit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register4bit_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Register4bit_tb_behav xil_defaultlib.Register4bit_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/xilinx1/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Register4bit_tb_behav xil_defaultlib.Register4bit_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SRlatch
+Compiling module xil_defaultlib.Dflipflop
+Compiling module xil_defaultlib.Register4bit
+Compiling module xil_defaultlib.Register4bit_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Register4bit_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Register4bit_tb_behav -key {Behavioral:sim_1:Functional:Register4bit_tb} -tclbatch {Register4bit_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Register4bit_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Register4bit_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2136.336 ; gain = 14.441
+reset_run synth_1
+INFO: [Project 1-1160] Copying file D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.runs/synth_1/Register4bit.dcp to D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+CRITICAL WARNING: [Runs 36-271] Incremental checkpoint part, xc7s75fgga484-1, does not match run part, xc7a35tfgg484-2.
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Nov  3 13:40:15 2023] Launched synth_1...
+Run output will be captured here: D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.runs/synth_1/runme.log
+[Fri Nov  3 13:40:15 2023] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.runs/impl_1/runme.log
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V1' is not a valid site or package pin name. [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc:11]
+CRITICAL WARNING: [Common 17-69] Command failed: 'AB4' is not a valid site or package pin name. [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc:15]
+CRITICAL WARNING: [Common 17-69] Command failed: 'Y5' is not a valid site or package pin name. [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc:17]
+Finished Parsing XDC File [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc]
+Completed Processing XDC Constraints
+
+place_ports D0 G22
+place_ports D2 D22
+startgroup
+set_property package_pin "" [get_ports [list  D2]]
+place_ports D1 D22
+endgroup
+set_property package_pin "" [get_ports [list  D3]]
+place_ports D2 E22
+place_ports D3 G21
+set_property package_pin "" [get_ports [list  Q1]]
+place_ports clk Y6
+place_ports Q0 M22
+place_ports Q1 N22
+place_ports Q2 K21
+startgroup
+set_property package_pin "" [get_ports [list  Q2]]
+place_ports Q3 K21
+endgroup
+place_ports Q2 L21
+save_constraints
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Nov  3 15:54:22 2023] Launched synth_1...
+Run output will be captured here: D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.runs/synth_1/runme.log
+[Fri Nov  3 15:54:22 2023] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.runs/synth_1
+
+add_files -norecurse {D:/Project/FPGA_XILINX/018_ShiftRegister4bit/018_ShiftRegister4bit.srcs/sources_1/new/SR_Latch.v D:/Project/FPGA_XILINX/018_ShiftRegister4bit/018_ShiftRegister4bit.srcs/sources_1/new/D_FlipFlop.v}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/SRlatch.v] -no_script -reset -force -quiet
+remove_files  D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/SRlatch.v
+export_ip_user_files -of_objects  [get_files D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Dflipflop.v] -no_script -reset -force -quiet
+remove_files  D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Dflipflop.v
+update_compile_order -fileset sources_1
+refresh_design
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/App/xilinx1/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2242.348 ; gain = 90.738
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Register4bit' [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Register4bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Dflipflop' [D:/Project/FPGA_XILINX/018_ShiftRegister4bit/018_ShiftRegister4bit.srcs/sources_1/new/D_FlipFlop.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SR_Latch' [D:/Project/FPGA_XILINX/018_ShiftRegister4bit/018_ShiftRegister4bit.srcs/sources_1/new/SR_Latch.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SR_Latch' (0#1) [D:/Project/FPGA_XILINX/018_ShiftRegister4bit/018_ShiftRegister4bit.srcs/sources_1/new/SR_Latch.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Dflipflop' (0#1) [D:/Project/FPGA_XILINX/018_ShiftRegister4bit/018_ShiftRegister4bit.srcs/sources_1/new/D_FlipFlop.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Register4bit' (0#1) [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Register4bit.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2332.879 ; gain = 181.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2332.879 ; gain = 181.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2332.879 ; gain = 181.270
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2332.879 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V1' is not a valid site or package pin name. [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc:11]
+CRITICAL WARNING: [Common 17-69] Command failed: 'AB4' is not a valid site or package pin name. [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc:14]
+CRITICAL WARNING: [Common 17-69] Command failed: 'Y5' is not a valid site or package pin name. [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc:15]
+Finished Parsing XDC File [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2332.879 ; gain = 181.270
+refresh_design
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/App/xilinx1/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2332.879 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Register4bit' [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Register4bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Dflipflop' [D:/Project/FPGA_XILINX/018_ShiftRegister4bit/018_ShiftRegister4bit.srcs/sources_1/new/D_FlipFlop.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SR_Latch' [D:/Project/FPGA_XILINX/018_ShiftRegister4bit/018_ShiftRegister4bit.srcs/sources_1/new/SR_Latch.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SR_Latch' (0#1) [D:/Project/FPGA_XILINX/018_ShiftRegister4bit/018_ShiftRegister4bit.srcs/sources_1/new/SR_Latch.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Dflipflop' (0#1) [D:/Project/FPGA_XILINX/018_ShiftRegister4bit/018_ShiftRegister4bit.srcs/sources_1/new/D_FlipFlop.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Register4bit' (0#1) [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/sources_1/new/Register4bit.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2357.688 ; gain = 24.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2381.555 ; gain = 48.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2381.555 ; gain = 48.676
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2395.000 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V1' is not a valid site or package pin name. [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc:11]
+CRITICAL WARNING: [Common 17-69] Command failed: 'AB4' is not a valid site or package pin name. [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc:14]
+CRITICAL WARNING: [Common 17-69] Command failed: 'Y5' is not a valid site or package pin name. [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc:15]
+Finished Parsing XDC File [D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.srcs/constrs_1/new/Register4bit.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2395.000 ; gain = 62.121
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Nov  3 16:00:01 2023] Launched synth_1...
+Run output will be captured here: D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.runs/synth_1/runme.log
+[Fri Nov  3 16:00:01 2023] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA_XILINX/017_Register4bit/SRlatch.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  3 16:02:51 2023...
