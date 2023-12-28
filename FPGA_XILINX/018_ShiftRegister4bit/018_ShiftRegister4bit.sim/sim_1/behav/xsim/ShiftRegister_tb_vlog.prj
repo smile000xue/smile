@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../016_D_FlipFlop/016_D_FlipFlop.srcs/sources_1/new/D_FlipFlop.v" \
+"../../../../../015_SR_Latch/015_SR_Latch.srcs/sources_1/new/SR_Latch.v" \
+"../../../../018_ShiftRegister4bit.srcs/sources_1/new/ShiftRegister4bit.v" \
+"../../../../018_ShiftRegister4bit.srcs/sim_1/new/ShiftRegister_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

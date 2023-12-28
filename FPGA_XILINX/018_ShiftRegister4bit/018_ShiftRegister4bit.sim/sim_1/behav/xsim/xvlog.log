@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/016_D_FlipFlop/016_D_FlipFlop.srcs/sources_1/new/D_FlipFlop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dflipflop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/015_SR_Latch/015_SR_Latch.srcs/sources_1/new/SR_Latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_Latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/018_ShiftRegister4bit/018_ShiftRegister4bit.srcs/sources_1/new/ShiftRegister4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ShiftRegister4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/018_ShiftRegister4bit/018_ShiftRegister4bit.srcs/sim_1/new/ShiftRegister_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ShiftRegister_tb

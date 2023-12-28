@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../019_Ledrun.srcs/sources_1/new/ledrun1bit.v" \
+"../../../../019_Ledrun.srcs/sources_1/new/ledrundifferentHZ.v" \
+"../../../../019_Ledrun.srcs/sim_1/new/ledrun_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/019_Ledrun/019_Ledrun.srcs/sources_1/new/ledrun1bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ledrun1bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/019_Ledrun/019_Ledrun.srcs/sources_1/new/ledrundifferentHZ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ledrundifferentHZ
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/019_Ledrun/019_Ledrun.srcs/sim_1/new/ledrun_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ledrun_tb

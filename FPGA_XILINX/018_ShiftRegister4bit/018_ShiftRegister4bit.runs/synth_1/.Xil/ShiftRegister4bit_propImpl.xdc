@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:D:/Project/FPGA_XILINX/018_ShiftRegister4bit/018_ShiftRegister4bit.srcs/constrs_1/new/ShiftRegister4bit.xdc rfile:../../../018_ShiftRegister4bit.srcs/constrs_1/new/ShiftRegister4bit.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y18 [get_ports clk]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN G22 [get_ports SI]
+set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M21 [get_ports S0]

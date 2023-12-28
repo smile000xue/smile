@@ -1,0 +1,6 @@
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports SI]
+set_property IOSTANDARD LVCMOS33 [get_ports S0]
+set_property PACKAGE_PIN Y18 [get_ports clk]
+set_property PACKAGE_PIN G22 [get_ports SI]
+set_property PACKAGE_PIN M21 [get_ports S0]
