@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:D:/Project/FPGA/017_Control_Led_Run/017_Control_Led_Run.srcs/constrs_1/new/led.xdc rfile:../../../017_Control_Led_Run.srcs/constrs_1/new/led.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M22 [get_ports led]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y18 [get_ports clk]
+set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN F15 [get_ports rst]

@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../adderfour/adderfour.srcs/sources_1/new/fouradder.v" \
+"../../../../fourbit_sub.srcs/sources_1/new/fourbit_sub.v" \
+"../../../../../adderfour/adderfour.srcs/sources_1/new/fulladder.v" \
+"../../../../../adderfour/adderfour.srcs/sources_1/new/halfadder.v" \
+"../../../../fourbit_sub.srcs/sim_1/new/fourbit_sub_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

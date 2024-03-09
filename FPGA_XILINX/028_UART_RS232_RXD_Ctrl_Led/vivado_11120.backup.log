@@ -1,0 +1,257 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Jan  5 19:11:07 2024
+# Process ID: 11120
+# Current directory: D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21092 D:\Project\FPGA\028_UART_RS232_RXD_Ctrl_Led\028_UART_RS232_RXD_Ctrl_Led.xpr
+# Log file: D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/vivado.log
+# Journal file: D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led\vivado.jou
+# Running On: Smile, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 14, Host memory: 16849 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1155.430 ; gain = 312.242
+update_compile_order -fileset sources_1
+load_feature simulator
+open_wave_database {D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.sim/sim_1/behav/xsim/UART_RXD_Ctrl_Led_tb_behav.wdb}
+open_wave_config {D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led\UART_RXD_Ctrl_Led_tb_behav.wcfg}
+open_wave_config: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1174.863 ; gain = 0.383
+open_wave_database: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1174.996 ; gain = 5.527
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-08:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+ERROR: [Labtools 27-3733] Error during cs_server initialization: Failed to connect cs_server at TCP:localhost:56946 to hw_server at TCP:localhost:3121.
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1227.992 ; gain = 0.000
+ERROR: [Common 17-39] 'connect_hw_server' failed due to earlier errors.
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-08:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+ERROR: [Labtools 27-3733] Error during cs_server initialization: Failed to connect cs_server at TCP:localhost:56971 to hw_server at TCP:localhost:3121.
+ERROR: [Common 17-39] 'connect_hw_server' failed due to earlier errors.
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-08:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+ERROR: [Labtools 27-3733] Error during cs_server initialization: Failed to connect cs_server at TCP:localhost:57029 to hw_server at TCP:localhost:3121.
+ERROR: [Common 17-39] 'connect_hw_server' failed due to earlier errors.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+[Fri Jan  5 19:31:08 2024] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tfgg484-2
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1567.715 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 2247.820 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 2247.820 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2247.820 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2403.203 ; gain = 1175.211
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tfgg484-2
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2411.938 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.srcs/constrs_1/new/UART_RXD_Ctrl_Led.xdc]
+Finished Parsing XDC File [D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.srcs/constrs_1/new/UART_RXD_Ctrl_Led.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2427.633 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-08:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+ERROR: [Labtools 27-3733] Error during cs_server initialization: Failed to connect cs_server at TCP:localhost:57123 to hw_server at TCP:localhost:3121.
+ERROR: [Common 17-39] 'connect_hw_server' failed due to earlier errors.
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-08:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+ERROR: [Labtools 27-3733] Error during cs_server initialization: Failed to connect cs_server at TCP:localhost:57415 to hw_server at TCP:localhost:3121.
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2535.961 ; gain = 0.000
+ERROR: [Common 17-39] 'connect_hw_server' failed due to earlier errors.
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-08:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+ERROR: [Labtools 27-3733] Error during cs_server initialization: Failed to connect cs_server at TCP:localhost:57853 to hw_server at TCP:localhost:3121.
+ERROR: [Common 17-39] 'connect_hw_server' failed due to earlier errors.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jan  5 19:40:43 2024...

@@ -1,0 +1,19 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot fourbit_sub_tb_behav xil_defaultlib.fourbit_sub_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'cout' [C:/Users/PC/Desktop/Project/fourbit_sub/fourbit_sub.srcs/sim_1/new/fourbit_sub_tb.v:30]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [C:/Users/PC/Desktop/Project/fourbit_sub/fourbit_sub.srcs/sources_1/new/fourbit_sub.v:37]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.halfadder
+Compiling module xil_defaultlib.fulladder
+Compiling module xil_defaultlib.fouradder
+Compiling module xil_defaultlib.fourbit_sub
+Compiling module xil_defaultlib.fourbit_sub_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot fourbit_sub_tb_behav

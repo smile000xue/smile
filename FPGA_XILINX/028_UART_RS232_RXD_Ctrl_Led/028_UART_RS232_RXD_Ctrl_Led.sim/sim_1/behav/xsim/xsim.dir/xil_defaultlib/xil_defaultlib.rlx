@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/Project/FPGA/027_UART_RS232_RXD/027_UART_RS232_RXD.srcs/sources_1/new/UART_RXD.v,1704440480,verilog,,D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.srcs/sources_1/new/UART_RXD_Cmd.v,,UART_RXD,,,,,,,,
+D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.srcs/sim_1/new/UART_RXD_Ctrl_Led_tb.v,1704453618,verilog,,,,UART_RXD_Ctrl_Led_tb,,,,,,,,
+D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.srcs/sources_1/new/UART_Counter_Led.v,1704442480,verilog,,D:/Project/FPGA/027_UART_RS232_RXD/027_UART_RS232_RXD.srcs/sources_1/new/UART_RXD.v,,UART_Counter_Led,,,,,,,,
+D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.srcs/sources_1/new/UART_RXD_Cmd.v,1704441995,verilog,,D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.srcs/sources_1/new/UART_RXD_Ctrl_Led.v,,UART_RXD_Cmd,,,,,,,,
+D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.srcs/sources_1/new/UART_RXD_Ctrl_Led.v,1704453627,verilog,,D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.srcs/sim_1/new/UART_RXD_Ctrl_Led_tb.v,,UART_RXD_Ctrl_Led,,,,,,,,

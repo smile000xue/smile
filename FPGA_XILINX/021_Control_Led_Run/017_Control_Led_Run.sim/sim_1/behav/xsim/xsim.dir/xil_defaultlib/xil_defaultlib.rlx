@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/Project/FPGA/017_Control_Led_Run/017_Control_Led_Run.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/Project/FPGA/017_Control_Led_Run/017_Control_Led_Run.srcs/sim_1/new/ControlLedrun_tb.v,1703707602,verilog,,,,ControlLedrun_tb,,,,,,,,
+D:/Project/FPGA/017_Control_Led_Run/017_Control_Led_Run.srcs/sources_1/new/ControlLedrun.v,1703686003,verilog,,D:/Project/FPGA/017_Control_Led_Run/017_Control_Led_Run.srcs/sim_1/new/ControlLedrun_tb.v,,ControlLedrun,,,,,,,,
+D:/Project/FPGA/017_Control_Led_Run/017_Control_Led_Run.srcs/sources_1/new/ControlLedrun2.v,1703687955,verilog,,D:/Project/FPGA/017_Control_Led_Run/017_Control_Led_Run.srcs/sim_1/new/ControlLedrun_tb.v,,ControlLedrun2,,,,,,,,
+D:/Project/FPGA/017_Control_Led_Run/017_Control_Led_Run.srcs/sources_1/new/ControlLedrun3.v,1703691282,verilog,,D:/Project/FPGA/017_Control_Led_Run/017_Control_Led_Run.srcs/sim_1/new/ControlLedrun_tb.v,,ControlLedrun3,,,,,,,,
+D:/Project/FPGA/017_Control_Led_Run/017_Control_Led_Run.srcs/sources_1/new/ControlLedrun4.v,1703692677,verilog,,D:/Project/FPGA/017_Control_Led_Run/017_Control_Led_Run.srcs/sim_1/new/ControlLedrun_tb.v,,ControlLedrun4,,,,,,,,
+D:/Project/FPGA/017_Control_Led_Run/017_Control_Led_Run.srcs/sources_1/new/ControlLedrun6.v,1703707343,verilog,,D:/Project/FPGA/017_Control_Led_Run/017_Control_Led_Run.srcs/sim_1/new/ControlLedrun_tb.v,,ControlLedrun6,,,,,,,,

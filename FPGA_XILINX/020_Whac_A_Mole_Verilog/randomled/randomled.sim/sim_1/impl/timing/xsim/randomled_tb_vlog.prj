@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"randomled_tb_time_impl.v" \
+"../../../../../randomled.srcs/sim_1/new/randomled_tb.v" \
+
+# Do not sort compile order
+nosort

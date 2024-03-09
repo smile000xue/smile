@@ -1,0 +1,223 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Dec 14 14:45:08 2023
+# Process ID: 38608
+# Current directory: D:/Project/FPGA/Whac_A_Mole_Verilog/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26892 D:\Project\FPGA\Whac_A_Mole_Verilog\project\project.xpr
+# Log file: D:/Project/FPGA/Whac_A_Mole_Verilog/project/vivado.log
+# Journal file: D:/Project/FPGA/Whac_A_Mole_Verilog/project\vivado.jou
+# Running On: Smile, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 14, Host memory: 16849 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'D:/Project/FPGA/project' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1164.207 ; gain = 347.844
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.srcs/utils_1/imports/synth_1/sevensegment.dcp with file D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/synth_1/game_of_whack_a_mole.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 14 14:47:30 2023] Launched synth_1...
+Run output will be captured here: D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/synth_1/runme.log
+[Thu Dec 14 14:47:30 2023] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-08:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2023 Xilinx, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/13724327082d01
+set_property PROGRAM.FILE {D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/impl_1/game_of_whack_a_mole.bit} [get_hw_devices xc7s75_0]
+current_hw_device [get_hw_devices xc7s75_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s75_0] 0]
+INFO: [Labtools 27-1434] Device xc7s75 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s75_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s75_0]
+set_property PROGRAM.FILE {D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/impl_1/game_of_whack_a_mole.bit} [get_hw_devices xc7s75_0]
+program_hw_devices [get_hw_devices xc7s75_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 3368.766 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7s75_0] 0]
+INFO: [Labtools 27-1434] Device xc7s75 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Thu Dec 14 15:43:09 2023] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7s75fgga484-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3780.812 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 4365.309 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 4365.309 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4365.309 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 4463.266 ; gain = 1050.508
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.srcs/utils_1/imports/synth_1/sevensegment.dcp with file D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/synth_1/game_of_whack_a_mole.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 14 15:49:44 2023] Launched synth_1...
+Run output will be captured here: D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/synth_1/runme.log
+[Thu Dec 14 15:49:44 2023] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/impl_1/runme.log
+close_design
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.srcs/utils_1/imports/synth_1/sevensegment.dcp with file D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/synth_1/game_of_whack_a_mole.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 14 15:57:06 2023] Launched synth_1...
+Run output will be captured here: D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/synth_1/runme.log
+[Thu Dec 14 15:57:06 2023] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 14 15:58:19 2023] Launched synth_1...
+Run output will be captured here: D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/synth_1/runme.log
+[Thu Dec 14 15:58:19 2023] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/impl_1/runme.log
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 4525.004 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 4525.004 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 4525.004 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 4525.004 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 14 16:00:57 2023] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7s75_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s75_0]
+set_property PROGRAM.FILE {D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/impl_1/game_of_whack_a_mole.bit} [get_hw_devices xc7s75_0]
+program_hw_devices [get_hw_devices xc7s75_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 4544.746 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7s75_0] 0]
+INFO: [Labtools 27-1434] Device xc7s75 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.srcs/utils_1/imports/synth_1/sevensegment.dcp with file D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/synth_1/game_of_whack_a_mole.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 14 16:09:02 2023] Launched synth_1...
+Run output will be captured here: D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/synth_1/runme.log
+[Thu Dec 14 16:09:02 2023] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 14 16:11:06 2023] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7s75_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s75_0]
+set_property PROGRAM.FILE {D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/impl_1/game_of_whack_a_mole.bit} [get_hw_devices xc7s75_0]
+program_hw_devices [get_hw_devices xc7s75_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 4544.746 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7s75_0] 0]
+INFO: [Labtools 27-1434] Device xc7s75 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.srcs/utils_1/imports/synth_1/sevensegment.dcp with file D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/synth_1/game_of_whack_a_mole.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 14 16:19:33 2023] Launched synth_1...
+Run output will be captured here: D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/synth_1/runme.log
+[Thu Dec 14 16:19:33 2023] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7s75_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s75_0]
+set_property PROGRAM.FILE {D:/Project/FPGA/Whac_A_Mole_Verilog/project/project.runs/impl_1/game_of_whack_a_mole.bit} [get_hw_devices xc7s75_0]
+program_hw_devices [get_hw_devices xc7s75_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 4544.746 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7s75_0] 0]
+INFO: [Labtools 27-1434] Device xc7s75 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 14 16:24:39 2023...

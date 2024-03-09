@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Mar  8 11:39:39 2024
+# Process ID: 27192
+# Current directory: D:/Project/FPGA/026_UART_RS232_StateMachine
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent41724 D:\Project\FPGA\026_UART_RS232_StateMachine\026_UART_RS232_StateMachine.xpr
+# Log file: D:/Project/FPGA/026_UART_RS232_StateMachine/vivado.log
+# Journal file: D:/Project/FPGA/026_UART_RS232_StateMachine\vivado.jou
+# Running On: Smile, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 14, Host memory: 16849 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.xpr
+update_compile_order -fileset sources_1

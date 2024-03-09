@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/randomled/randomled.srcs/sources_1/new/LedRandom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LedRandom
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/randomled/randomled.srcs/sources_1/new/randomled.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module randomled
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/randomled/randomled.srcs/sim_1/new/randomled_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module randomled_tb

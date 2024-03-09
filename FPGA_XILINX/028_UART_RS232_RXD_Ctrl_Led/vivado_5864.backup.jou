@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Jan  5 19:54:57 2024
+# Process ID: 5864
+# Current directory: D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12700 D:\Project\FPGA\028_UART_RS232_RXD_Ctrl_Led\028_UART_RS232_RXD_Ctrl_Led.xpr
+# Log file: D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/vivado.log
+# Journal file: D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led\vivado.jou
+# Running On: Smile, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 14, Host memory: 16849 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.runs/impl_1/UART_RXD_Ctrl_Led.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.runs/impl_1/UART_RXD_Ctrl_Led.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+load_feature simulator
+open_wave_database {D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.sim/sim_1/behav/xsim/UART_RXD_Ctrl_Led_tb_behav.wdb}
+open_wave_config {D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led\UART_RXD_Ctrl_Led_tb_behav.wcfg}
+open_wave_config {D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/UART_RXD_Ctrl_Led_tb_behav.wcfg}
+reset_simulation -simset sim_1 -mode behavioral
+save_wave_config {D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led\UART_RXD_Ctrl_Led_tb_behav.wcfg}
+launch_simulation
+open_wave_config D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/UART_RXD_Ctrl_Led_tb_behav.wcfg
+source UART_RXD_Ctrl_Led_tb.tcl
+run all
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+wait_on_run impl_1
+open_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.runs/impl_1/UART_RXD_Ctrl_Led.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.runs/impl_1/UART_RXD_Ctrl_Led.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Project/FPGA/028_UART_RS232_RXD_Ctrl_Led/028_UART_RS232_RXD_Ctrl_Led.runs/impl_1/UART_RXD_Ctrl_Led.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_sim
+close_sim

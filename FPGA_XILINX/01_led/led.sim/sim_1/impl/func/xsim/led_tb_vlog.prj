@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"led_tb_func_impl.v" \
+"../../../../../led.srcs/sim_1/new/led_tb.v" \
+
+# Do not sort compile order
+nosort

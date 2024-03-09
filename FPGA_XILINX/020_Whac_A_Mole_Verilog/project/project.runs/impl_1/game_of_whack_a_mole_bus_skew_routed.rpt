@@ -1,0 +1,15 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Dec 20 21:16:40 2023
+| Host         : Smile running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file game_of_whack_a_mole_bus_skew_routed.rpt -pb game_of_whack_a_mole_bus_skew_routed.pb -rpx game_of_whack_a_mole_bus_skew_routed.rpx
+| Design       : game_of_whack_a_mole
+| Device       : 7s75-fgga484
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

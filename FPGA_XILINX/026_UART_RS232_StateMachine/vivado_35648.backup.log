@@ -1,0 +1,1702 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Jan  2 21:07:25 2024
+# Process ID: 35648
+# Current directory: D:/Project/FPGA/026_UART_RS232_StateMachine
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31052 D:\Project\FPGA\026_UART_RS232_StateMachine\026_UART_RS232_StateMachine.xpr
+# Log file: D:/Project/FPGA/026_UART_RS232_StateMachine/vivado.log
+# Journal file: D:/Project/FPGA/026_UART_RS232_StateMachine\vivado.jou
+# Running On: Smile, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 14, Host memory: 16849 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1174.996 ; gain = 243.832
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'UART_Sendmultiplebytes1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UART_Sendmultiplebytes1_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 80 differs from formal bit length 40 for port 'senddata' [D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v:30]
+WARNING: [VRFC 10-3705] select index 47 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:114]
+WARNING: [VRFC 10-3705] select index 55 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:115]
+WARNING: [VRFC 10-3705] select index 63 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:116]
+WARNING: [VRFC 10-3705] select index 71 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:117]
+WARNING: [VRFC 10-3705] select index 79 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:118]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "UART_Sendmultiplebytes1_tb_behav -key {Behavioral:sim_1:Functional:UART_Sendmultiplebytes1_tb} -tclbatch {UART_Sendmultiplebytes1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source UART_Sendmultiplebytes1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'UART_Sendmultiplebytes1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1239.062 ; gain = 54.840
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/UART_Sendmultiplebytes1_tb/u1}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'UART_Sendmultiplebytes1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UART_Sendmultiplebytes1_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 80 differs from formal bit length 40 for port 'senddata' [D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v:30]
+WARNING: [VRFC 10-3705] select index 47 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:114]
+WARNING: [VRFC 10-3705] select index 55 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:115]
+WARNING: [VRFC 10-3705] select index 63 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:116]
+WARNING: [VRFC 10-3705] select index 71 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:117]
+WARNING: [VRFC 10-3705] select index 79 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:118]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+run all
+run: Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 1239.062 ; gain = 0.000
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UART_Sendmultiplebytes1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/DR_LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR_LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/Top_UART_RS232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_UART_RS232
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/bps_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bps_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/data_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/div_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 80 differs from formal bit length 40 for port 'senddata' [D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v:30]
+WARNING: [VRFC 10-3705] select index 47 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:114]
+WARNING: [VRFC 10-3705] select index 55 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:115]
+WARNING: [VRFC 10-3705] select index 63 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:116]
+WARNING: [VRFC 10-3705] select index 71 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:117]
+WARNING: [VRFC 10-3705] select index 79 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:118]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR_LUT
+Compiling module xil_defaultlib.div_cnt
+Compiling module xil_defaultlib.bps_cnt
+Compiling module xil_defaultlib.data_reg
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.Top_UART_RS232
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot UART_Sendmultiplebytes1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1239.062 ; gain = 0.000
+run all
+$stop called at time : 193780 ns : File "D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v" Line 48
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UART_Sendmultiplebytes1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/DR_LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR_LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/Top_UART_RS232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_UART_RS232
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/bps_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bps_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/data_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/div_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 80 differs from formal bit length 40 for port 'senddata' [D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v:30]
+WARNING: [VRFC 10-3705] select index 47 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:114]
+WARNING: [VRFC 10-3705] select index 55 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:115]
+WARNING: [VRFC 10-3705] select index 63 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:116]
+WARNING: [VRFC 10-3705] select index 71 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:117]
+WARNING: [VRFC 10-3705] select index 79 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:118]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR_LUT
+Compiling module xil_defaultlib.div_cnt
+Compiling module xil_defaultlib.bps_cnt
+Compiling module xil_defaultlib.data_reg
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.Top_UART_RS232
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot UART_Sendmultiplebytes1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1245.102 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1247.578 ; gain = 2.477
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UART_Sendmultiplebytes1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/DR_LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR_LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/Top_UART_RS232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_UART_RS232
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/bps_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bps_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/data_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/div_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 80 differs from formal bit length 40 for port 'senddata' [D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v:30]
+WARNING: [VRFC 10-3705] select index 47 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:114]
+WARNING: [VRFC 10-3705] select index 55 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:115]
+WARNING: [VRFC 10-3705] select index 63 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:116]
+WARNING: [VRFC 10-3705] select index 71 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:117]
+WARNING: [VRFC 10-3705] select index 79 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:118]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR_LUT
+Compiling module xil_defaultlib.div_cnt
+Compiling module xil_defaultlib.bps_cnt
+Compiling module xil_defaultlib.data_reg
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.Top_UART_RS232
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot UART_Sendmultiplebytes1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1248.383 ; gain = 0.000
+run all
+$stop called at time : 582980 ns : File "D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v" Line 48
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UART_Sendmultiplebytes1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/DR_LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR_LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/Top_UART_RS232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_UART_RS232
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/bps_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bps_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/data_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/div_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 80 differs from formal bit length 40 for port 'senddata' [D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v:30]
+WARNING: [VRFC 10-3705] select index 47 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:114]
+WARNING: [VRFC 10-3705] select index 55 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:115]
+WARNING: [VRFC 10-3705] select index 63 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:116]
+WARNING: [VRFC 10-3705] select index 71 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:117]
+WARNING: [VRFC 10-3705] select index 79 into 'senddata' is out of bounds [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:118]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR_LUT
+Compiling module xil_defaultlib.div_cnt
+Compiling module xil_defaultlib.bps_cnt
+Compiling module xil_defaultlib.data_reg
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.Top_UART_RS232
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot UART_Sendmultiplebytes1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1250.715 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1251.543 ; gain = 0.828
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UART_Sendmultiplebytes1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/DR_LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR_LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/Top_UART_RS232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_UART_RS232
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/bps_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bps_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/data_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/div_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR_LUT
+Compiling module xil_defaultlib.div_cnt
+Compiling module xil_defaultlib.bps_cnt
+Compiling module xil_defaultlib.data_reg
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.Top_UART_RS232
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot UART_Sendmultiplebytes1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1252.527 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1252.527 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UART_Sendmultiplebytes1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/DR_LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR_LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/Top_UART_RS232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_UART_RS232
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/bps_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bps_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/data_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/div_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR_LUT
+Compiling module xil_defaultlib.div_cnt
+Compiling module xil_defaultlib.bps_cnt
+Compiling module xil_defaultlib.data_reg
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.Top_UART_RS232
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot UART_Sendmultiplebytes1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+run all
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1253.805 ; gain = 1.125
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/utils_1/imports/synth_1/UART_Sendmultiplebytes1.dcp with file D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1/UART_Sendmultiplebytes1.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+[Tue Jan  2 21:26:29 2024] Launched synth_1...
+Run output will be captured here: D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1/runme.log
+[Tue Jan  2 21:26:29 2024] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/utils_1/imports/synth_1/UART_Sendmultiplebytes1.dcp with file D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1/UART_Sendmultiplebytes1.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+[Tue Jan  2 21:31:34 2024] Launched synth_1...
+Run output will be captured here: D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1/runme.log
+[Tue Jan  2 21:31:34 2024] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-08:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/C305939AABCD
+set_property PROGRAM.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.bit} [get_hw_devices xc7a35t_0]
+set_property PROBES.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.ltx} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'UART_Sendmultiplebytes1' at location 'uuid_6DF587FF9F52535DA1B1EBDC77CA1CBB' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1952] VIO hw_probe OUTPUT_VALUE properties for hw_vio(s) [hw_vio_1] differ from output values in the VIO core(s).
+Resolution: 
+To synchronize the hw_probes properties and the VIO core outputs choose one of the following alternatives:
+  1) Execute the command 'Commit Output Values to VIO Core', to write down the hw_probe values to the core.
+  2) Execute the command 'Refresh Input and Output Values from VIO Core', to update the hw_probe properties with the core values.
+  3) First restore initial values in the core with the command 'Reset VIO Core Outputs', and then execute the command 'Refresh Input and Output Values from VIO Core'.
+set_property OUTPUT_VALUE 00000000000000000000 [get_hw_probes senddata -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {senddata} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+set_property OUTPUT_VALUE 554F592045464F4C2049 [get_hw_probes senddata -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {senddata} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/utils_1/imports/synth_1/UART_Sendmultiplebytes1.dcp with file D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1/UART_Sendmultiplebytes1.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+[Tue Jan  2 21:39:25 2024] Launched synth_1...
+Run output will be captured here: D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1/runme.log
+[Tue Jan  2 21:39:25 2024] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tfgg484-2
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 3840.844 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.123 . Memory (MB): peak = 4548.008 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.123 . Memory (MB): peak = 4548.008 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 4548.008 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 4704.645 ; gain = 1208.738
+set_property PROBES.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1952] VIO hw_probe OUTPUT_VALUE properties for hw_vio(s) [hw_vio_1] differ from output values in the VIO core(s).
+Resolution: 
+To synchronize the hw_probes properties and the VIO core outputs choose one of the following alternatives:
+  1) Execute the command 'Commit Output Values to VIO Core', to write down the hw_probe values to the core.
+  2) Execute the command 'Refresh Input and Output Values from VIO Core', to update the hw_probe properties with the core values.
+  3) First restore initial values in the core with the command 'Reset VIO Core Outputs', and then execute the command 'Refresh Input and Output Values from VIO Core'.
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+set_property OUTPUT_VALUE 00000000000000000000 [get_hw_probes senddata -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {senddata} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+set_property OUTPUT_VALUE 554F592045464F4C2049 [get_hw_probes senddata -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {senddata} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/utils_1/imports/synth_1/UART_Sendmultiplebytes1.dcp with file D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1/UART_Sendmultiplebytes1.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+[Tue Jan  2 21:49:33 2024] Launched synth_1...
+Run output will be captured here: D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1/runme.log
+[Tue Jan  2 21:49:34 2024] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/runme.log
+set_property PROBES.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1952] VIO hw_probe OUTPUT_VALUE properties for hw_vio(s) [hw_vio_1] differ from output values in the VIO core(s).
+Resolution: 
+To synchronize the hw_probes properties and the VIO core outputs choose one of the following alternatives:
+  1) Execute the command 'Commit Output Values to VIO Core', to write down the hw_probe values to the core.
+  2) Execute the command 'Refresh Input and Output Values from VIO Core', to update the hw_probe properties with the core values.
+  3) First restore initial values in the core with the command 'Reset VIO Core Outputs', and then execute the command 'Refresh Input and Output Values from VIO Core'.
+set_property OUTPUT_VALUE 00000000000000000000 [get_hw_probes senddata -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {senddata} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+set_property OUTPUT_VALUE 554F592045464F4C2049 [get_hw_probes senddata -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {senddata} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Tue Jan  2 21:54:55 2024] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/runme.log
+set_property PROBES.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1952] VIO hw_probe OUTPUT_VALUE properties for hw_vio(s) [hw_vio_1] differ from output values in the VIO core(s).
+Resolution: 
+To synchronize the hw_probes properties and the VIO core outputs choose one of the following alternatives:
+  1) Execute the command 'Commit Output Values to VIO Core', to write down the hw_probe values to the core.
+  2) Execute the command 'Refresh Input and Output Values from VIO Core', to update the hw_probe properties with the core values.
+  3) First restore initial values in the core with the command 'Reset VIO Core Outputs', and then execute the command 'Refresh Input and Output Values from VIO Core'.
+set_property OUTPUT_VALUE 00000000000000000000 [get_hw_probes senddata -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {senddata} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+set_property OUTPUT_VALUE 554F592045464F4C2049 [get_hw_probes senddata -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {senddata} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/C305939AABCD
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'UART_Sendmultiplebytes1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UART_Sendmultiplebytes1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/DR_LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR_LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/Top_UART_RS232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_UART_RS232
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/bps_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bps_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/data_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/div_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR_LUT
+Compiling module xil_defaultlib.div_cnt
+Compiling module xil_defaultlib.bps_cnt
+Compiling module xil_defaultlib.data_reg
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.Top_UART_RS232
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot UART_Sendmultiplebytes1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "UART_Sendmultiplebytes1_tb_behav -key {Behavioral:sim_1:Functional:UART_Sendmultiplebytes1_tb} -tclbatch {UART_Sendmultiplebytes1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source UART_Sendmultiplebytes1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'UART_Sendmultiplebytes1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run all
+run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 4739.590 ; gain = 0.457
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/UART_Sendmultiplebytes1_tb/u1}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UART_Sendmultiplebytes1_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+run all
+run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 4740.266 ; gain = 0.176
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UART_Sendmultiplebytes1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/DR_LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR_LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/Top_UART_RS232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_UART_RS232
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/bps_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bps_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/data_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/div_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR_LUT
+Compiling module xil_defaultlib.div_cnt
+Compiling module xil_defaultlib.bps_cnt
+Compiling module xil_defaultlib.data_reg
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.Top_UART_RS232
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot UART_Sendmultiplebytes1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+run all
+run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 4741.273 ; gain = 0.152
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UART_Sendmultiplebytes1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/DR_LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR_LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/Top_UART_RS232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_UART_RS232
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/bps_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bps_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/data_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/div_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR_LUT
+Compiling module xil_defaultlib.div_cnt
+Compiling module xil_defaultlib.bps_cnt
+Compiling module xil_defaultlib.data_reg
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.Top_UART_RS232
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot UART_Sendmultiplebytes1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 4813.227 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 4813.613 ; gain = 0.172
+add_bp {D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v} 80
+remove_bps -file {D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v} -line 80
+add_bp {D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v} 88
+remove_bps -file {D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v} -line 88
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UART_Sendmultiplebytes1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/DR_LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR_LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/Top_UART_RS232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_UART_RS232
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/bps_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bps_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/data_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/div_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR_LUT
+Compiling module xil_defaultlib.div_cnt
+Compiling module xil_defaultlib.bps_cnt
+Compiling module xil_defaultlib.data_reg
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.Top_UART_RS232
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot UART_Sendmultiplebytes1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 4814.492 ; gain = 0.879
+run all
+run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 4814.637 ; gain = 0.145
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UART_Sendmultiplebytes1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/DR_LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR_LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/REG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/Top_UART_RS232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_UART_RS232
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/bps_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bps_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/data_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/div_cnt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/sim_1/new/UART_Sendmultiplebytes1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_Sendmultiplebytes1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'UART_Sendmultiplebytes1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UART_Sendmultiplebytes1_tb_behav xil_defaultlib.UART_Sendmultiplebytes1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR_LUT
+Compiling module xil_defaultlib.div_cnt
+Compiling module xil_defaultlib.bps_cnt
+Compiling module xil_defaultlib.data_reg
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.REG
+Compiling module xil_defaultlib.Top_UART_RS232
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1
+Compiling module xil_defaultlib.UART_Sendmultiplebytes1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot UART_Sendmultiplebytes1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 4814.812 ; gain = 0.000
+run all
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/utils_1/imports/synth_1/UART_Sendmultiplebytes1.dcp with file D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1/UART_Sendmultiplebytes1.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+[Tue Jan  2 22:21:27 2024] Launched synth_1...
+Run output will be captured here: D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1/runme.log
+[Tue Jan  2 22:21:27 2024] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Tue Jan  2 22:23:57 2024] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/runme.log
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tfgg484-2
+Top: UART_Sendmultiplebytes1
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/App/Xilinx_Unified_2022.2_1014_8888_Win64.exe/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 5138.367 ; gain = 323.340
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'UART_Sendmultiplebytes1' [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'vio_0' [D:/Project/FPGA/026_UART_RS232_StateMachine/.Xil/Vivado-35648-Smile/realtime/vio_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'vio_0' (0#1) [D:/Project/FPGA/026_UART_RS232_StateMachine/.Xil/Vivado-35648-Smile/realtime/vio_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Top_UART_RS232' [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/Top_UART_RS232.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DR_LUT' [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/DR_LUT.v:23]
+INFO: [Synth 8-226] default block is never used [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/DR_LUT.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'DR_LUT' (0#1) [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/DR_LUT.v:23]
+INFO: [Synth 8-6157] synthesizing module 'div_cnt' [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/div_cnt.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'div_cnt' (0#1) [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/div_cnt.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bps_cnt' [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/bps_cnt.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bps_cnt' (0#1) [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/bps_cnt.v:23]
+INFO: [Synth 8-6157] synthesizing module 'data_reg' [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/data_reg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'data_reg' (0#1) [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/data_reg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX' [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/MUX.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX' (0#1) [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/MUX.v:23]
+INFO: [Synth 8-6157] synthesizing module 'REG' [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/REG.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REG' (0#1) [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/REG.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Top_UART_RS232' (0#1) [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/Top_UART_RS232.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'UART_Sendmultiplebytes1' (0#1) [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:23]
+WARNING: [Synth 8-7137] Register uart_tx_reg in module REG has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Project/FPGA/023_UART_RS232/023_UART_RS232.srcs/sources_1/new/REG.v:33]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'UART_Sendmultiplebytes1'. This will prevent further optimization [D:/Project/FPGA/025_UART_RS232_Sendmultiplebyte/UART_Sendmultiplebyte/UART_Sendmultiplebyte.srcs/sources_1/new/UART_Sendmultiplebytes1.v:50]
+WARNING: [Synth 8-7129] Port send_en in module data_reg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module DR_LUT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module DR_LUT is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 5218.637 ; gain = 403.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 5236.480 ; gain = 421.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 5236.480 ; gain = 421.453
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'd:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.gen/sources_1/ip/vio_0/vio_0.dcp' for cell 'UART_Sendmultiplebytes1'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 5253.461 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.gen/sources_1/ip/vio_0/vio_0.xdc] for cell 'UART_Sendmultiplebytes1'
+Finished Parsing XDC File [d:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.gen/sources_1/ip/vio_0/vio_0.xdc] for cell 'UART_Sendmultiplebytes1'
+Parsing XDC File [D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/constrs_1/new/UART_Sendmultiplebytes1.xdc]
+Finished Parsing XDC File [D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/constrs_1/new/UART_Sendmultiplebytes1.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5358.723 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 5376.926 ; gain = 561.898
+25 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 5376.926 ; gain = 561.898
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.srcs/utils_1/imports/synth_1/UART_Sendmultiplebytes1.dcp with file D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1/UART_Sendmultiplebytes1.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1
+
+launch_runs synth_1 -jobs 15
+[Tue Jan  2 22:28:50 2024] Launched synth_1...
+Run output will be captured here: D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 15
+[Tue Jan  2 22:29:48 2024] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/runme.log
+current_design impl_1
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 5390.582 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.131 . Memory (MB): peak = 5390.582 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.131 . Memory (MB): peak = 5390.582 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 15
+[Tue Jan  2 22:31:24 2024] Launched impl_1...
+Run output will be captured here: D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-08:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/C305939AABCD
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/C305939AABCD.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/C305939AABCD
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/C305939AABCD
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'UART_Sendmultiplebytes1' at location 'uuid_6DF587FF9F52535DA1B1EBDC77CA1CBB' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Project/FPGA/026_UART_RS232_StateMachine/026_UART_RS232_StateMachine.runs/impl_1/UART_Sendmultiplebytes1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1952] VIO hw_probe OUTPUT_VALUE properties for hw_vio(s) [hw_vio_1] differ from output values in the VIO core(s).
+Resolution: 
+To synchronize the hw_probes properties and the VIO core outputs choose one of the following alternatives:
+  1) Execute the command 'Commit Output Values to VIO Core', to write down the hw_probe values to the core.
+  2) Execute the command 'Refresh Input and Output Values from VIO Core', to update the hw_probe properties with the core values.
+  3) First restore initial values in the core with the command 'Reset VIO Core Outputs', and then execute the command 'Refresh Input and Output Values from VIO Core'.
+set_property OUTPUT_VALUE 00000000000000000000 [get_hw_probes senddata -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {senddata} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+set_property OUTPUT_VALUE 554F592045464F4C2049 [get_hw_probes senddata -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {senddata} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+set_property OUTPUT_VALUE 15120251531302011484 [get_hw_probes senddata -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {senddata} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 1 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+startgroup
+set_property OUTPUT_VALUE 0 [get_hw_probes test_en -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+commit_hw_vio [get_hw_probes {test_en} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"UART_Sendmultiplebytes1"}]]
+endgroup
+reset_project
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jan  2 22:37:24 2024...

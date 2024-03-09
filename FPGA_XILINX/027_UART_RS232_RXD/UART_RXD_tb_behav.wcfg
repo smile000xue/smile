@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="UART_RXD_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="UART_RXD_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="1,043.000001 us"></ZoomEndTime>
+      <Cursor1Time time="943.400000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="166"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/UART_RXD_tb/u1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/uart_rx" type="logic">
+      <obj_property name="ElementShortName">uart_rx</obj_property>
+      <obj_property name="ObjectShortName">uart_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/band_set" type="array">
+      <obj_property name="ElementShortName">band_set[2:0]</obj_property>
+      <obj_property name="ObjectShortName">band_set[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/uart_rx_sync1" type="logic">
+      <obj_property name="ElementShortName">uart_rx_sync1</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_sync1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/uart_rx_sync2" type="logic">
+      <obj_property name="ElementShortName">uart_rx_sync2</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_sync2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/uart_rx_reg1" type="logic">
+      <obj_property name="ElementShortName">uart_rx_reg1</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_reg1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/uart_rx_reg2" type="logic">
+      <obj_property name="ElementShortName">uart_rx_reg2</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_reg2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/uart_rx_negedge" type="logic">
+      <obj_property name="ElementShortName">uart_rx_negedge</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_negedge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/data" type="array">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/bps_DR" type="array">
+      <obj_property name="ElementShortName">bps_DR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bps_DR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/counter" type="array">
+      <obj_property name="ElementShortName">counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/bps_clk" type="logic">
+      <obj_property name="ElementShortName">bps_clk</obj_property>
+      <obj_property name="ObjectShortName">bps_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/bps_cnt_q" type="array">
+      <obj_property name="ElementShortName">bps_cnt_q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bps_cnt_q[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/rx_start" type="logic">
+      <obj_property name="ElementShortName">rx_start</obj_property>
+      <obj_property name="ObjectShortName">rx_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/STOP_BIT" type="logic">
+      <obj_property name="ElementShortName">STOP_BIT</obj_property>
+      <obj_property name="ObjectShortName">STOP_BIT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/u1/START_BIT" type="logic">
+      <obj_property name="ElementShortName">START_BIT</obj_property>
+      <obj_property name="ObjectShortName">START_BIT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/uart_rx" type="logic">
+      <obj_property name="ElementShortName">uart_rx</obj_property>
+      <obj_property name="ObjectShortName">uart_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/band_set" type="array">
+      <obj_property name="ElementShortName">band_set[2:0]</obj_property>
+      <obj_property name="ObjectShortName">band_set[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/data" type="array">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_RXD_tb/rx_done" type="logic">
+      <obj_property name="ElementShortName">rx_done</obj_property>
+      <obj_property name="ObjectShortName">rx_done</obj_property>
+   </wvobject>
+</wave_config>
