@@ -1,5 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/led/led.sim/sim_1/impl/func/xsim/led_tb_func_impl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module led
-INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/FPGA_XILINX/led/led.srcs/sim_1/new/led_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module led_tb
