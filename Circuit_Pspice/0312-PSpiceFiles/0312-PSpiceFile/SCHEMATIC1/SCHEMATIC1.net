@@ -1,0 +1,14 @@
+* source 0312
+V_V1         N00164 0  AC 0
++SIN 0 100 60 0 0 0
+R_R1         N00164 N00171  10k TC=0,0 
+L_L1         N00171 OUTPUT  50u  
+C_C1         OUTPUT 0  1u  TC=0,0 
+V_V2         N00566 N00587 10
+R_R2         0 N00573  1k TC=0,0 
+R_R3         N00566 N00573  1k TC=0,0 
+C_C2         N00573 0  1n  TC=0,0 
+C_C3         N00939 0  10U  TC=0,0 
+R_R4         N00931 N00939  200 TC=0,0 
+R_R5         0 N00939  400 TC=0,0 
+V_V3         N00931 0 DC 0Vdc AC 1m 

@@ -1,0 +1,15 @@
+.ALIASES
+V_V1            V1(+=N00164 -=0 ) CN @0312.SCHEMATIC1(sch_1):INS47@SOURCE.VSIN.Normal(chips)
+R_R1            R1(1=N00164 2=N00171 ) CN @0312.SCHEMATIC1(sch_1):INS84@ANALOG.R.Normal(chips)
+L_L1            L1(1=N00171 2=OUTPUT ) CN @0312.SCHEMATIC1(sch_1):INS109@ANALOG.L.Normal(chips)
+C_C1            C1(1=OUTPUT 2=0 ) CN @0312.SCHEMATIC1(sch_1):INS134@ANALOG.C.Normal(chips)
+V_V2            V2(+=N00566 -=N00587 ) CN @0312.SCHEMATIC1(sch_1):INS466@SOURCE.VDC.Normal(chips)
+R_R2            R2(1=0 2=N00573 ) CN @0312.SCHEMATIC1(sch_1):INS495@ANALOG.R.Normal(chips)
+R_R3            R3(1=N00566 2=N00573 ) CN @0312.SCHEMATIC1(sch_1):INS511@ANALOG.R.Normal(chips)
+C_C2            C2(1=N00573 2=0 ) CN @0312.SCHEMATIC1(sch_1):INS536@ANALOG.C.Normal(chips)
+C_C3            C3(1=N00939 2=0 ) CN @0312.SCHEMATIC1(sch_1):INS985@ANALOG.C.Normal(chips)
+R_R4            R4(1=N00931 2=N00939 ) CN @0312.SCHEMATIC1(sch_1):INS913@ANALOG.R.Normal(chips)
+R_R5            R5(1=0 2=N00939 ) CN @0312.SCHEMATIC1(sch_1):INS969@ANALOG.R.Normal(chips)
+V_V3            V3(+=N00931 -=0 ) CN @0312.SCHEMATIC1(sch_1):INS1447@SOURCE.VAC.Normal(chips)
+_    _(output=OUTPUT)
+.ENDALIASES

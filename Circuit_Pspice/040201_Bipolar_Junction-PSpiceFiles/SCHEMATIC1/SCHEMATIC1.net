@@ -1,0 +1,5 @@
+* source 040201_BIPOLAR_JUNCTION
+Q_Q1         OUT N00171 0 Q2N3904
+R_R1         N00166 N00171  4.7k TC=0,0 
+V_V2         OUT 0 5Vdc
+I_I1         0 N00166 DC 50uAdc  

@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC1-040201"  [ D:\Project\Circuit_Pspice\040201_Bipolar_Junction-PSpiceFiles\SCHEMATIC1\040201.sim ] 
+
+** Creating circuit file "040201.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN V_V1 0 16 0.1 
+.STEP LIN V_V2 0 15 2.5 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

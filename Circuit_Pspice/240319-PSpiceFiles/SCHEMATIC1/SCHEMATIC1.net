@@ -1,0 +1,16 @@
+* source 240319
+R_R1         N00051 OUTPUT  1k TC=0,0 
+D_D2         OUTPUT 0 D1N4004 
+V_V1         N00051 0  AC 0
++SIN 0 4 1k 0 0 0
+D_D3         N01215 0 D1N4004 
+V_V2         N01205 0  AC 0
++SIN 0 4 1k 0 0 0
+R_R2         N01205 N01215  1k TC=0,0 
+D_D4         0 N01215 D1N4004 
+D_D5         N02260 N02049 D1N4004 
+D_D6         N02049 N02053 D1N4004 
+D_D7         N02053 0 D1N4004 
+R_R5         N02260 N01780  200 TC=0,0 
+R_Cellphone         0 N02260  720k TC=0,0 
+V_V3         N01780 0 0Vdc

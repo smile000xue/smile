@@ -1,0 +1,44 @@
+
+**** 04/08/24 18:47:08 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-040202"  [ D:\Project\Circuit_Pspice\040201_bipolar_junction-pspicefiles\schematic1\040202.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "040202.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN V1 0 1.2 0.01 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 040201_BIPOLAR_JUNCTION
+Q_Q1         N00175 N00171 0 Q2N3904
+R_R1         N00166 N00171  4.7k TC=0,0 
+V_V2         N00175 0 5Vdc
+I_I1         0 N00166 DC 10uAdc  
+
+**** RESUMING 040202.cir ****
+.END
+
+
+ERROR(ORPSIM-15090): DC device V1 is undefined
+

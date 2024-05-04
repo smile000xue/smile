@@ -1,0 +1,95 @@
+
+**** 03/19/24 18:01:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-24031903"  [ D:\Project\Circuit_Pspice\240319-PSpiceFiles\SCHEMATIC1\24031903.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "24031903.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN V_V3 3 3.10 0.01 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 240319
+R_R1         N00051 OUTPUT  1k TC=0,0 
+D_D2         OUTPUT 0 D1N4004 
+V_V1         N00051 0  AC 0
++SIN 0 4 1k 0 0 0
+D_D3         N01215 0 D1N4004 
+V_V2         N01205 0  AC 0
++SIN 0 4 1k 0 0 0
+R_R2         N01205 N01215  1k TC=0,0 
+D_D4         0 N01215 D1N4004 
+D_D5         N02260 N02049 D1N4004 
+D_D6         N02049 N02053 D1N4004 
+D_D7         N02053 0 D1N4004 
+R_R5         N02260 N01780  200 TC=0,0 
+R_Cellphone         0 N02260  720k TC=0,0 
+V_V3         N01780 0 0Vdc
+
+**** RESUMING 24031903.cir ****
+.END
+
+**** 03/19/24 18:01:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-24031903"  [ D:\Project\Circuit_Pspice\240319-PSpiceFiles\SCHEMATIC1\24031903.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4004         D1N4001         
+          IS   14.110000E-09   14.110000E-09 
+           N    1.984           1.984        
+         IKF   94.81           94.81         
+          BV  600              75            
+         IBV   10.000000E-06   10.000000E-06 
+          RS     .03389          .03389      
+          TT    5.700000E-06    5.700000E-06 
+         CJO   25.890000E-12   25.890000E-12 
+          VJ     .3245           .3245       
+           M     .44             .44         
+
+
+
+          JOB CONCLUDED
+
+**** 03/19/24 18:01:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-24031903"  [ D:\Project\Circuit_Pspice\240319-PSpiceFiles\SCHEMATIC1\24031903.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

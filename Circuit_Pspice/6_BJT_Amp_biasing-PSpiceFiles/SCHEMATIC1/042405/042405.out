@@ -1,0 +1,176 @@
+
+**** 04/23/24 01:43:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-042405"  [ D:\Project\Circuit_Pspice\6_BJT_Amp_biasing-PSpiceFiles\SCHEMATIC1\042405.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "042405.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OP
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 6_BJT_AMP_BIASING
+R_R1         N00101 N00124  120k TC=0,0 
+R_R2         N00108 N00124  2.7k TC=0,0 
+Q_Q1         N00108 N00101 N000952 Q2N3904
+V_V1         N00124 0 12Vdc
+R_R3         0 N00101  7.5k TC=0,0 
+R_R4         0 N000952  560 TC=0,0 
+
+**** RESUMING 042405.cir ****
+.END
+
+**** 04/23/24 01:43:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-042405"  [ D:\Project\Circuit_Pspice\6_BJT_Amp_biasing-PSpiceFiles\SCHEMATIC1\042405.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q2N3904         
+               NPN             
+       LEVEL    1            
+          IS    6.734000E-15 
+          BF  416.4          
+          NF    1            
+         VAF   74.03         
+         IKF     .06678      
+         ISE    6.734000E-15 
+          NE    1.259        
+          BR     .7371       
+          NR    1            
+         ISS    0            
+          RB   10            
+          RE    0            
+          RC    1            
+         CJE    4.493000E-12 
+         VJE     .75         
+         MJE     .2593       
+         CJC    3.638000E-12 
+         VJC     .75         
+         MJC     .3085       
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          TF  301.200000E-12 
+         XTF    2            
+         VTF    4            
+         ITF     .4          
+          TR  239.500000E-09 
+         XTB    1.5          
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 04/23/24 01:43:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-042405"  [ D:\Project\Circuit_Pspice\6_BJT_Amp_biasing-PSpiceFiles\SCHEMATIC1\042405.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00101)     .6967 (N00108)   11.5980 (N00124)   12.0000 (N000952)     .0841    
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.430E-04
+
+    TOTAL POWER DISSIPATION   2.92E-03  WATTS
+
+
+**** 04/23/24 01:43:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-042405"  [ D:\Project\Circuit_Pspice\6_BJT_Amp_biasing-PSpiceFiles\SCHEMATIC1\042405.sim ] 
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+
+**** BIPOLAR JUNCTION TRANSISTORS
+
+
+NAME         Q_Q1      
+MODEL        Q2N3904   
+IB           1.31E-06 
+IC           1.49E-04 
+VBE          6.13E-01 
+VBC         -1.09E+01 
+VCE          1.15E+01 
+BETADC       1.14E+02 
+GM           5.74E-03 
+RPI          2.35E+04 
+RX           1.00E+01 
+RO           5.71E+05 
+CBE          7.99E-12 
+CBC          1.56E-12 
+CJS          0.00E+00 
+BETAAC       1.35E+02 
+CBX/CBX2     0.00E+00 
+FT/FT2       9.57E+07 
+
+
+
+          JOB CONCLUDED
+
+**** 04/23/24 01:43:44 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-042405"  [ D:\Project\Circuit_Pspice\6_BJT_Amp_biasing-PSpiceFiles\SCHEMATIC1\042405.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

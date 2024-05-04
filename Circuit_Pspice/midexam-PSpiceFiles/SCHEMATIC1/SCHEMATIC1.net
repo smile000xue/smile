@@ -1,0 +1,6 @@
+* source MIDEXAM
+V_V1         N00146 0 3Vdc
+V_V2         N00128 0 0Vdc
+R_R1         N00146 N00244  50k TC=0,0 
+R_R2         N00135 N00128  100 TC=0,0 
+Q_Q1         N00135 N00244 0 Q2N3904
