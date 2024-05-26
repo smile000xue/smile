@@ -8,7 +8,12 @@ During the summer vacation of 2023, I bought my first microcontroller, a 51 MCU 
 6.Analog-to-digital and digital-to-analog conversion
 7.Making an infrared remote controller
 ......
+
+
+
 ![image](https://github.com/smile000xue/smile/assets/115122690/bd2d5ef8-82f0-439a-9671-11401af245bb)
+
+
 
 After completing my studies with the 51 MCU, I bought my second microcontroller, the STM32F103C8T6, manufactured by STMicroelectronics. 
 It has more powerful functions and is programmed using a built-in function library.
@@ -19,6 +24,12 @@ It has more powerful functions and is programmed using a built-in function libra
 5.DMA data transfer
 ......
 
+
+![image](https://github.com/smile000xue/smile/assets/115122690/10b90933-1d98-4919-a4a6-19fc3f33de68)
+
+
+
+
 The third board I bought was an FPGA, with the chip ARTIX-7 XC7A35TFGG484-2 designed by Xilinx. It is programmed using the Verilog language and is significantly different from microcontrollers. 
 The programming is done according to actual circuits. This way of programming shocked me and made me very interested in it.
 1.4-bit counter
@@ -28,6 +39,10 @@ The programming is done according to actual circuits. This way of programming sh
 5.UART_RS232 state machine
 6.UART_RS232_RXD controlling LED
 Continuing to learn...
+
+
+![image](https://github.com/smile000xue/smile/assets/115122690/c83f2503-a9b9-4457-938e-21942244a1f5)
+
 
 
 
