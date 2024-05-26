@@ -1,7 +1,10 @@
 Starting from the winter vacation of 2022, I began self-studying the C programming language. At that time, I also discovered the powerful website GitHub and decided to post my code there.
 During the summer vacation of 2023, I bought my first microcontroller, a 51 MCU with the chip STC89C52RC. It was designed by STC PRECHIN Inc. in China. I learned many projects from it:
+
 1.Turning on the first LED
+
 2.Controlling the LED status with a button
+
 3.Communicating between a computer and a microcontroller via UART
 4.Controlling the AT24C02 memory using I2C
 5.Controlling the DS18B20 digital temperature sensor using One Wire
