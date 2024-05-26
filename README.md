@@ -8,6 +8,7 @@ During the summer vacation of 2023, I bought my first microcontroller, a 51 MCU 
 6.Analog-to-digital and digital-to-analog conversion
 7.Making an infrared remote controller
 ......
+![image](https://github.com/smile000xue/smile/assets/115122690/bd2d5ef8-82f0-439a-9671-11401af245bb)
 
 After completing my studies with the 51 MCU, I bought my second microcontroller, the STM32F103C8T6, manufactured by STMicroelectronics. 
 It has more powerful functions and is programmed using a built-in function library.
